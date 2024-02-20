@@ -3,83 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="journal.css">
-    <title>Journal</title>
+    <title>Interactive Personal Journal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
+        .journal-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            min-height: 300px;
+        }
+
+        .entry {
+            margin-bottom: 20px;
+        }
+
+        .entry-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .entry-content {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .plus-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .plus-icon:hover {
+            background-color: #0056b3;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 20% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            border-radius: 8px;
+            width: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .editor-toolbar {
+            margin-bottom: 10px;
+        }
+
+        .editor-toolbar button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 5px 10px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .editor-toolbar button:hover {
+            background-color: #0056b3;
+        }
+
+        .editor-content {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            min-height: 200px;
+        }
+
+        .entry-title-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-
-    <div id="formatting-controls">
-        <select onchange="changeFontStyle()">
-            <option value="Arial, sans-serif">Arial</option>
-            <option value="'Courier New', Courier, monospace">Courier New</option>
-            <option value="Georgia, serif">Georgia</option>
-            <option value="Verdana, sans-serif">Verdana</option>
-        </select>
-        
-        <select onchange="changeFontSize()">
-            <option value="14px">14px</option>
-            <option value="16px">16px</option>
-            <option value="18px">18px</option>
-            <option value="20px">20px</option>
-        </select>
-        
-        <input type="color" id="colorPicker" onchange="changeFontColor()">
-        
-        <button onclick="toggleBold()"><img src="journal_icons/bold.png" src="journal-icons"></button>
-        <button onclick="toggleItalic()"><img src="journal_icons/italic.png" src="journal-icons"></button>
-    </div>
-    
-    <div class="journal-section">
-        <div class="binder">
-            <img src="journal_icons/binderFinal.png">
+    <div class="journal-container">
+        <div class="entry">
+            <h2 class="entry-title">Entry Title</h2>
+            <div class="entry-content">Entry content goes here...</div>
         </div>
-        <!-- <div class="journal-page">
-            <textarea class="page-type" placeholder="Type Something.." ></textarea>
-        </div> -->
     </div>
-    
-    <button id="saveButton" onclick="saveJournal()">Save Journal</button>
 
+    <button class="plus-icon" onclick="openModal()">+</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Create New Entry</h2>
+            <input type="text" class="entry-title-input" placeholder="Entry Title">
+            <div class="editor-toolbar">
+                <button onclick="changeTextColor()">Text Color</button>
+                <button onclick="changeTextSize()">Text Size</button>
+                <button onclick="changeFontStyle()">Font Style</button>
+            </div>
+            <div contenteditable="true" class="editor-content" id="editor">Start typing here...</div>
+            <button onclick="saveEntry()">Save Entry</button>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"></script>
     <script>
-        function saveJournal() {
-            var editorContent = document.getElementById('editor').value;
-            localStorage.setItem('journalContent', editorContent);
-            alert('Journal saved successfully!');
-        }
-
-        window.onload = function () {
-            var savedContent = localStorage.getItem('journalContent');
-            if (savedContent) {
-                document.getElementById('editor').value = savedContent;
-            }
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "YOUR_API_KEY",
+            authDomain: "YOUR_AUTH_DOMAIN",
+            projectId: "YOUR_PROJECT_ID",
+            storageBucket: "YOUR_STORAGE_BUCKET",
+            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+            appId: "YOUR_APP_ID"
         };
 
-        function changeFontColor() {
-            var color = document.getElementById('colorPicker').value;
-            document.getElementById('editor').style.color = color;
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+        // Open modal function
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
         }
 
-        function toggleBold() {
-            var editor = document.getElementById('editor');
-            editor.style.fontWeight = (editor.style.fontWeight === 'bold') ? 'normal' : 'bold';
+        // Close modal function
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
         }
 
-        function toggleItalic() {
-            var editor = document.getElementById('editor');
-            editor.style.fontStyle = (editor.style.fontStyle === 'italic') ? 'normal' : 'italic';
+        // Save entry function
+        function saveEntry() {
+            const entryTitle = document.querySelector('.entry-title-input').value;
+            const entryContent = document.querySelector('.editor-content').innerHTML;
+
+            db.collection("entries").add({
+                title: entryTitle,
+                content: entryContent
+            })
+            .then((docRef) => {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch((error) => {
+                console.error("Error adding document: ", error);
+            });
+
+            closeModal();
         }
 
+        // Change text color function
+        function changeTextColor() {
+            const color = prompt("Enter text color:");
+            document.execCommand('foreColor', false, color);
+        }
+
+        // Change text size function
+        function changeTextSize() {
+            const size = prompt("Enter text size:");
+            document.execCommand('fontSize', false, size);
+        }
+
+        // Change font style function
         function changeFontStyle() {
-            var style = document.querySelector('select:nth-of-type(1)').value;
-            document.getElementById('editor').style.fontFamily = style;
-        }
-
-        function changeFontSize() {
-            var size = document.querySelector('select:nth-of-type(2)').value;
-            document.getElementById('editor').style.fontSize = size;
+            const style = prompt("Enter font style (e.g., Arial, Verdana, Times New Roman):");
+            document.execCommand('fontName', false, style);
         }
     </script>
-
 </body>
 </html>
