@@ -10,11 +10,7 @@ model = genai.GenerativeModel("gemini-pro")
 @app.route('/')
 def index():
     print("working index.html")
-    return render_template('index.html')
-
-@app.route('/page2')
-def page2():
-    return render_template('page2.html')
+    return render_template('petPage.html')
 
 @app.route('/process_input', methods=['POST'])
 def process_input():
@@ -27,8 +23,14 @@ def process_input():
     return jsonify({'response': response_text})
 
 def get_query(query):
-    prompt = "You are now an AI bot integrated into a law website. Do not make the headings bold. You have to answer the following question as an Indian Lawyer. I forbid you from answering questions not related to legal matters. Format the content in HTML tags. So you are my lawyer.{}".format(query)
+    # Update the prompt without specifying the animal
+    prompt = "You are now an AI not integrated into a mental health and well-being website. You are going to act like the user's virtual pet. Your task is to listen to the user and then cheer them up according to their mood. Be their personal therapist and someone they can confide in.Give your response in html format. The user says the following:{}".format(query)
+    print("Working")
     response = model.generate_content(prompt)
+    # if response.parts is not None:
+    #     return response.parts[0].text
+    # else:
+    #     return "Unable to generate a response."
     return response.text
 
 if __name__ == '__main__':
