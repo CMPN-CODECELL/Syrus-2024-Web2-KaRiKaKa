@@ -1,0 +1,874 @@
+[
+    {
+      "day": 1,
+      "muscle_group": "Full Body",
+      "exercises": [
+        {
+          "name": "Bodyweight Squats",
+          "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+          "sets": 3
+        },
+        {
+          "name": "Push-ups",
+          "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+          "sets": 3
+        },
+        {
+          "name": "Plank",
+          "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+          "sets": 3,
+          "time": "30 seconds"
+        },
+        {
+          "name": "Walking Lunges",
+          "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+          "sets": 3
+        },
+        {
+          "name": "Tricep Dips",
+          "description": "Targets: Triceps.<br>How to: Use a sturdy chair or elevated surface, lower your body by bending your elbows, then push back up.",
+          "sets": 3
+        },
+        {
+          "name": "Supermans",
+          "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+          "sets": 3
+        },
+        {
+          "name": "Jumping Jacks",
+          "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+          "sets": 3
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "muscle_group": "Cardio",
+      "exercises": [
+        {
+          "name": "Running in Place",
+          "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while running in place, maintaining a brisk pace.",
+          "sets": 3,
+          "time": "5 minutes"
+        },
+        {
+          "name": "High Knees",
+          "description": "Targets: Cardiovascular system, quads.<br>How to: Lift your knees towards your chest while jogging in place at a faster pace.",
+          "sets": 3,
+          "time": "3 minutes"
+        },
+        {
+          "name": "Burpees",
+          "description": "Targets: Full body, cardiovascular system.<br>How to: Start in a standing position, perform a squat, kick your feet back into a plank, perform a push-up, jump your feet back to your hands, and then jump up.",
+          "sets": 3
+        },
+        {
+          "name": "Mountain Climbers",
+          "description": "Targets: Cardiovascular system, core.<br>How to: Get into a plank position, bring one knee towards your chest, then switch legs in a running motion.",
+          "sets": 3,
+          "time": "1 minute"
+        },
+        {
+          "name": "Jump Rope",
+          "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+          "sets": 3,
+          "time": "5 minutes"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "muscle_group": "Core",
+      "exercises": [
+        {
+          "name": "Crunches",
+          "description": "Targets: Abdominals.<br>How to: Lie on your back, bend your knees, and lift your upper body towards your knees.",
+          "sets": 3
+        },
+        {
+          "name": "Leg Raises",
+          "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, then lower them back down without letting them touch the ground.",
+          "sets": 3
+        },
+        {
+          "name": "Russian Twists",
+          "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side.",
+          "sets": 3
+        },
+        {
+          "name": "Plank",
+          "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+          "sets": 3,
+          "time": "30 seconds"
+        },
+        {
+          "name": "Bicycle Crunches",
+          "description": "Targets: Abdominals, obliques.<br>How to: Lie on your back, bring one knee towards your chest while twisting your upper body to touch the opposite elbow to the knee. Switch sides.",
+          "sets": 3
+        },
+        {
+          "name": "Reverse Crunches",
+          "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, and lift your hips off the ground towards your chest.",
+          "sets": 3
+        },
+        {
+          "name": "Side Planks",
+          "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+          "sets": 3,
+          "time": "20 seconds each side"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "muscle_group": "Rest Day",
+      "exercises": [
+        {
+          "name": "Rest",
+          "description": "Take a day off to allow your body to recover and rejuvenate. Consider light activities such as walking or stretching if desired."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "muscle_group": "Total Body",
+      "exercises": [
+        {
+          "name": "Jumping Jacks",
+          "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+          "sets": 3
+        },
+        {
+          "name": "Bodyweight Squats",
+          "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+          "sets": 3
+        },
+        {
+          "name": "Push-ups",
+          "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+          "sets": 3
+        },
+        {
+          "name": "Plank",
+          "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+          "sets": 3,
+          "time": "30 seconds"
+        },
+        {
+          "name": "Jump Rope",
+          "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+          "sets": 3,
+          "time": "5 minutes"
+        },
+        {
+          "name": "Walking Lunges",
+          "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+          "sets": 3
+        },
+        {
+          "name": "Supermans",
+          "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+          "sets": 3
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "muscle_group": "Cardio and Flexibility",
+      "exercises": [
+        {
+          "name": "Light Jogging in Place",
+          "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while jogging in place at a moderate pace.",
+          "sets": 3,
+          "time": "10 minutes"
+        },
+        {
+          "name": "Dynamic Stretching",
+          "description": "Targets: Flexibility, mobility.<br>How to: Perform dynamic stretches, such as leg swings, arm circles, and torso twists, to prepare your body for movement.",
+          "sets": 3,
+          "time": "10 minutes"
+        },
+        {
+          "name": "Jumping Jacks",
+          "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+          "sets": 3
+        },
+        {
+          "name": "Jump Rope",
+          "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+          "sets": 3,
+          "time": "5 minutes"
+        },
+        {
+          "name": "Static Stretching",
+          "description": "Targets: Flexibility, cooldown.<br>How to: Hold static stretches for major muscle groups, such as hamstrings, quadriceps, chest, and shoulders, to improve flexibility and cool down.",
+          "sets": 3,
+          "time": "10 minutes"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "muscle_group": "Rest or Light Activity",
+      "exercises": [
+        {
+          "name": "Rest or Light Activity",
+          "description": "Take a day off to allow your body to recover. Consider light activities such as walking, cycling, or gentle yoga if desired."
+        }
+      ]
+    },
+    {
+        "day": 8,
+        "muscle_group": "Full Body",
+        "exercises": [
+          {
+            "name": "Bodyweight Squats",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+            "sets": 3
+          },
+          {
+            "name": "Push-ups",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Dips",
+            "description": "Targets: Triceps.<br>How to: Use a sturdy chair or elevated surface, lower your body by bending your elbows, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Supermans",
+            "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+            "sets": 3
+          },
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 9,
+        "muscle_group": "Cardio",
+        "exercises": [
+          {
+            "name": "Running in Place",
+            "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while running in place, maintaining a brisk pace.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "High Knees",
+            "description": "Targets: Cardiovascular system, quads.<br>How to: Lift your knees towards your chest while jogging in place at a faster pace.",
+            "sets": 3,
+            "time": "3 minutes"
+          },
+          {
+            "name": "Burpees",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Start in a standing position, perform a squat, kick your feet back into a plank, perform a push-up, jump your feet back to your hands, and then jump up.",
+            "sets": 3
+          },
+          {
+            "name": "Mountain Climbers",
+            "description": "Targets: Cardiovascular system, core.<br>How to: Get into a plank position, bring one knee towards your chest, then switch legs in a running motion.",
+            "sets": 3,
+            "time": "1 minute"
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          }
+        ]
+      },
+      {
+        "day": 10,
+        "muscle_group": "Core",
+        "exercises": [
+          {
+            "name": "Crunches",
+            "description": "Targets: Abdominals.<br>How to: Lie on your back, bend your knees, and lift your upper body towards your knees.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Raises",
+            "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, then lower them back down without letting them touch the ground.",
+            "sets": 3
+          },
+          {
+            "name": "Russian Twists",
+            "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Bicycle Crunches",
+            "description": "Targets: Abdominals, obliques.<br>How to: Lie on your back, bring one knee towards your chest while twisting your upper body to touch the opposite elbow to the knee. Switch sides.",
+            "sets": 3
+          },
+          {
+            "name": "Reverse Crunches",
+            "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, and lift your hips off the ground towards your chest.",
+            "sets": 3
+          },
+          {
+            "name": "Side Planks",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+            "sets": 3,
+            "time": "20 seconds each side"
+          }
+        ]
+      },
+      {
+        "day": 11,
+        "muscle_group": "Rest Day",
+        "exercises": [
+          {
+            "name": "Rest",
+            "description": "Take a day off to allow your body to recover and rejuvenate. Consider light activities such as walking or stretching if desired."
+          }
+        ]
+      },
+      {
+        "day": 12,
+        "muscle_group": "Total Body",
+        "exercises": [
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Bodyweight Squats",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+            "sets": 3
+          },
+          {
+            "name": "Push-ups",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Supermans",
+            "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 13,
+        "muscle_group": "Cardio and Flexibility",
+        "exercises": [
+          {
+            "name": "Light Jogging in Place",
+            "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while jogging in place at a moderate pace.",
+            "sets": 3,
+            "time": "10 minutes"
+          },
+          {
+            "name": "Dynamic Stretching",
+            "description": "Targets: Flexibility, mobility.<br>How to: Perform dynamic stretches, such as leg swings, arm circles, and torso twists, to prepare your body for movement.",
+            "sets": 3,
+            "time": "10 minutes"
+          },
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "Static Stretching",
+            "description": "Targets: Flexibility, cooldown.<br>How to: Hold static stretches for major muscle groups, such as hamstrings, quadriceps, chest, and shoulders, to improve flexibility and cool down.",
+            "sets": 3,
+            "time": "10 minutes"
+          }
+        ]
+      },
+      {
+        "day": 14,
+        "muscle_group": "Rest or Light Activity",
+        "exercises": [
+          {
+            "name": "Rest or Light Activity",
+            "description": "Take a day off to allow your body to recover. Consider light activities such as walking, cycling, or gentle yoga if desired."
+          }
+        ]
+      },
+      {
+        "day": 15,
+        "muscle_group": "Full Body",
+        "exercises": [
+          {
+            "name": "Bodyweight Squats",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+            "sets": 3
+          },
+          {
+            "name": "Push-ups",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Dips",
+            "description": "Targets: Triceps.<br>How to: Use a sturdy chair or elevated surface, lower your body by bending your elbows, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Supermans",
+            "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+            "sets": 3
+          },
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 16,
+        "muscle_group": "Cardio",
+        "exercises": [
+          {
+            "name": "Running in Place",
+            "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while running in place, maintaining a brisk pace.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "High Knees",
+            "description": "Targets: Cardiovascular system, quads.<br>How to: Lift your knees towards your chest while jogging in place at a faster pace.",
+            "sets": 3,
+            "time": "3 minutes"
+          },
+          {
+            "name": "Burpees",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Start in a standing position, perform a squat, kick your feet back into a plank, perform a push-up, jump your feet back to your hands, and then jump up.",
+            "sets": 3
+          },
+          {
+            "name": "Mountain Climbers",
+            "description": "Targets: Cardiovascular system, core.<br>How to: Get into a plank position, bring one knee towards your chest, then switch legs in a running motion.",
+            "sets": 3,
+            "time": "1 minute"
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          }
+        ]
+      },
+      {
+        "day": 17,
+        "muscle_group": "Core",
+        "exercises": [
+          {
+            "name": "Crunches",
+            "description": "Targets: Abdominals.<br>How to: Lie on your back, bend your knees, and lift your upper body towards your knees.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Raises",
+            "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, then lower them back down without letting them touch the ground.",
+            "sets": 3
+          },
+          {
+            "name": "Russian Twists",
+            "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Bicycle Crunches",
+            "description": "Targets: Abdominals, obliques.<br>How to: Lie on your back, bring one knee towards your chest while twisting your upper body to touch the opposite elbow to the knee. Switch sides.",
+            "sets": 3
+          },
+          {
+            "name": "Reverse Crunches",
+            "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, and lift your hips off the ground towards your chest.",
+            "sets": 3
+          },
+          {
+            "name": "Side Planks",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+            "sets": 3,
+            "time": "20 seconds each side"
+          }
+        ]
+      },
+      {
+        "day": 18,
+        "muscle_group": "Rest Day",
+        "exercises": [
+          {
+            "name": "Rest",
+            "description": "Take a day off to allow your body to recover and rejuvenate. Consider light activities such as walking or stretching if desired."
+          }
+        ]
+      },
+      {
+        "day": 19,
+        "muscle_group": "Total Body",
+        "exercises": [
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Bodyweight Squats",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+            "sets": 3
+          },
+          {
+            "name": "Push-ups",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Supermans",
+            "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 20,
+        "muscle_group": "Cardio and Flexibility",
+        "exercises": [
+          {
+            "name": "Light Jogging in Place",
+            "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while jogging in place at a moderate pace.",
+            "sets": 3,
+            "time": "10 minutes"
+          },
+          {
+            "name": "Dynamic Stretching",
+            "description": "Targets: Flexibility, mobility.<br>How to: Perform dynamic stretches, such as leg swings, arm circles, and torso twists, to prepare your body for movement.",
+            "sets": 3,
+            "time": "10 minutes"
+          },
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "Static Stretching",
+            "description": "Targets: Flexibility, cooldown.<br>How to: Hold static stretches for major muscle groups, such as hamstrings, quadriceps, chest, and shoulders, to improve flexibility and cool down.",
+            "sets": 3,
+            "time": "10 minutes"
+          }
+        ]
+      },
+      {
+        "day": 21,
+        "muscle_group": "Rest or Light Activity",
+        "exercises": [
+          {
+            "name": "Rest or Light Activity",
+            "description": "Take a day off to allow your body to recover. Consider light activities such as walking, cycling, or gentle yoga if desired."
+          }
+        ]
+      },
+      {
+        "day": 22,
+        "muscle_group": "Full Body",
+        "exercises": [
+          {
+            "name": "Bodyweight Squats",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+            "sets": 3
+          },
+          {
+            "name": "Push-ups",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Dips",
+            "description": "Targets: Triceps.<br>How to: Use a sturdy chair or elevated surface, lower your body by bending your elbows, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Supermans",
+            "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+            "sets": 3
+          },
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 23,
+        "muscle_group": "Cardio",
+        "exercises": [
+          {
+            "name": "Running in Place",
+            "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while running in place, maintaining a brisk pace.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "High Knees",
+            "description": "Targets: Cardiovascular system, quads.<br>How to: Lift your knees towards your chest while jogging in place at a faster pace.",
+            "sets": 3,
+            "time": "3 minutes"
+          },
+          {
+            "name": "Burpees",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Start in a standing position, perform a squat, kick your feet back into a plank, perform a push-up, jump your feet back to your hands, and then jump up.",
+            "sets": 3
+          },
+          {
+            "name": "Mountain Climbers",
+            "description": "Targets: Cardiovascular system, core.<br>How to: Get into a plank position, bring one knee towards your chest, then switch legs in a running motion.",
+            "sets": 3,
+            "time": "1 minute"
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          }
+        ]
+      },
+      {
+        "day": 24,
+        "muscle_group": "Core",
+        "exercises": [
+          {
+            "name": "Crunches",
+            "description": "Targets: Abdominals.<br>How to: Lie on your back, bend your knees, and lift your upper body towards your knees.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Raises",
+            "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, then lower them back down without letting them touch the ground.",
+            "sets": 3
+          },
+          {
+            "name": "Russian Twists",
+            "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Bicycle Crunches",
+            "description": "Targets: Abdominals, obliques.<br>How to: Lie on your back, bring one knee towards your chest while twisting your upper body to touch the opposite elbow to the knee. Switch sides.",
+            "sets": 3
+          },
+          {
+            "name": "Reverse Crunches",
+            "description": "Targets: Lower abs.<br>How to: Lie on your back, lift your legs towards the ceiling, and lift your hips off the ground towards your chest.",
+            "sets": 3
+          },
+          {
+            "name": "Side Planks",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+            "sets": 3,
+            "time": "20 seconds each side"
+          }
+        ]
+      },
+      {
+        "day": 25,
+        "muscle_group": "Rest Day",
+        "exercises": [
+          {
+            "name": "Rest",
+            "description": "Take a day off to allow your body to recover and rejuvenate. Consider light activities such as walking or stretching if desired."
+          }
+        ]
+      },
+      {
+        "day": 26,
+        "muscle_group": "Total Body",
+        "exercises": [
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Bodyweight Squats",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Stand with feet shoulder-width apart, bend your knees, and lower your body as if sitting back into a chair. Keep your chest up and back straight.",
+            "sets": 3
+          },
+          {
+            "name": "Push-ups",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Start in a plank position and lower your body until your chest nearly touches the ground. Push back up to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles.",
+            "sets": 3,
+            "time": "30 seconds"
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Supermans",
+            "description": "Targets: Lower back, glutes.<br>How to: Lie face down on the ground, lift your arms and legs off the ground simultaneously, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 27,
+        "muscle_group": "Cardio and Flexibility",
+        "exercises": [
+          {
+            "name": "Light Jogging in Place",
+            "description": "Targets: Cardiovascular system.<br>How to: Lift your knees towards your chest while jogging in place at a moderate pace.",
+            "sets": 3,
+            "time": "10 minutes"
+          },
+          {
+            "name": "Dynamic Stretching",
+            "description": "Targets: Flexibility, mobility.<br>How to: Perform dynamic stretches, such as leg swings, arm circles, and torso twists, to prepare your body for movement.",
+            "sets": 3,
+            "time": "10 minutes"
+          },
+          {
+            "name": "Jumping Jacks",
+            "description": "Targets: Full body, cardiovascular system.<br>How to: Stand with feet together, jump while spreading your arms and legs, then jump back to the starting position.",
+            "sets": 3
+          },
+          {
+            "name": "Jump Rope",
+            "description": "Targets: Cardiovascular system, calves.<br>How to: Use an imaginary jump rope or a real one if available, jump continuously for the specified time.",
+            "sets": 3,
+            "time": "5 minutes"
+          },
+          {
+            "name": "Static Stretching",
+            "description": "Targets: Flexibility, cooldown.<br>How to: Hold static stretches for major muscle groups, such as hamstrings, quadriceps, chest, and shoulders, to improve flexibility and cool down.",
+            "sets": 3,
+            "time": "10 minutes"
+          }
+        ]
+      },
+      {
+        "day": 28,
+        "muscle_group": "Rest or Light Activity",
+        "exercises": [
+          {
+            "name": "Rest or Light Activity",
+            "description": "Take a day off to allow your body to recover. Consider light activities such as walking, cycling, or gentle yoga if desired."
+          }
+        ]
+      }
+]

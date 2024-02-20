@@ -1,0 +1,80 @@
+[
+    {
+      "day": 1,
+      "focus": "Foundation",
+      "poses": [
+        {
+          "name": "Mountain Pose (Tadasana)",
+          "description": "Stand tall with feet together, arms by your sides. Engage your thighs, lift your chest, and reach your arms overhead, palms facing each other."
+        },
+        {
+          "name": "Downward-Facing Dog (Adho Mukha Svanasana)",
+          "description": "Start on your hands and knees, lift your hips towards the ceiling, straighten your legs, and reach your heels towards the floor. Keep your hands shoulder-width apart."
+        },
+        {
+          "name": "Warrior I (Virabhadrasana I)",
+          "description": "From Downward-Facing Dog, step your right foot forward between your hands. Turn your left foot at a 45-degree angle. Lift your torso and arms overhead, palms facing each other."
+        },
+        {
+          "name": "Child's Pose (Balasana)",
+          "description": "Kneel on the mat, sit back on your heels, and reach your arms forward. Rest your forehead on the mat, relaxing your entire body."
+        },
+        {
+          "name": "Corpse Pose (Savasana)",
+          "description": "Lie on your back, legs extended, arms by your sides, palms facing up. Close your eyes and focus on deep, relaxed breathing."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "focus": "Flexibility",
+      "poses": [
+        {
+          "name": "Forward Fold (Uttanasana)",
+          "description": "Stand with feet hip-width apart, hinge at your hips, and reach towards the floor. Bend your knees slightly if needed to maintain a straight spine."
+        },
+        {
+          "name": "Seated Forward Bend (Paschimottanasana)",
+          "description": "Sit with legs extended, hinge at your hips, and reach towards your toes. Keep your spine straight and chest open."
+        },
+        {
+          "name": "Cat-Cow Pose (Marjaryasana-Bitilasana)",
+          "description": "Start on your hands and knees. Inhale, arch your back (Cow Pose), and lift your head. Exhale, round your spine (Cat Pose), and tuck your chin to your chest."
+        },
+        {
+          "name": "Puppy Pose (Uttana Shishosana)",
+          "description": "Start on your hands and knees, walk your hands forward, and lower your chest towards the mat. Keep your hips over your knees."
+        },
+        {
+          "name": "Legs Up the Wall Pose (Viparita Karani)",
+          "description": "Sit with your side against a wall, lie on your back, and extend your legs up the wall. Relax your arms by your sides."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "focus": "Balance",
+      "poses": [
+        {
+          "name": "Tree Pose (Vrikshasana)",
+          "description": "Stand on one leg, bring the sole of the opposite foot to the inner thigh or calf (avoid the knee), and balance. Bring your palms together in front of your chest or reach them overhead."
+        },
+        {
+          "name": "Warrior III (Virabhadrasana III)",
+          "description": "From Mountain Pose, shift your weight onto one leg, extend the other leg straight back, and hinge at your hips. Reach your arms forward, parallel to the floor."
+        },
+        {
+          "name": "Eagle Pose (Garudasana)",
+          "description": "Stand on one leg, cross the opposite leg over, hooking the foot behind the standing leg. Cross one arm over the other at the elbows, and bring palms together."
+        },
+        {
+          "name": "Dancer's Pose (Natarajasana)",
+          "description": "Stand on one leg, bend the other knee, reach back and hold the ankle with the hand of the same side. Lift the other arm forward, keeping your balance."
+        },
+        {
+          "name": "Mountain Pose (Tadasana)",
+          "description": "Return to Mountain Pose for centering and balance."
+        }
+      ]
+    }
+]

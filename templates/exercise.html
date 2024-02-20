@@ -95,10 +95,12 @@
     </div>
 
     <script>
-        // Function to fetch and display the exercise routine
-        async function fetchExerciseRoutine() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const buttonClicked = urlParams.get('selected_exercise');
+
+            async function fetchExerciseRoutine() {
             try {
-                const response = await fetch('../exercises/intermediate.json'); // Replace with the actual path to your JSON file
+                const response = await fetch(`../exercises/${buttonClicked}.json`); // Replace with the actual path to your JSON file
                 const data = await response.json();
 
                 const routineContainer = document.getElementById('routine-container');
@@ -116,6 +118,8 @@
             }
         }
 
+        // Function to fetch and display the exercise routine
+        
         function toggleExerciseList(day) {
             const rightSection = document.getElementById('right-section');
             const exerciseList = document.getElementById('exercise-list');
@@ -139,8 +143,7 @@
                     const exerciseDetails = document.createElement('div');
                     exerciseDetails.classList.add('exercise-details');
                     exerciseDetails.innerHTML = `<label for="${exercise.name}"><h4>${exercise.name}</h4>
-                                                <p>${exercise.description}</p>
-                                                <p>Sets: ${exercise.sets}</p></label>`;
+                                                <p>${exercise.description}</p>`;
 
                     // Append checklist and details to the exercise item
                     exerciseItem.appendChild(checklistInput);

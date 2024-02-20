@@ -1,0 +1,1194 @@
+[
+    {
+      "day": 1,
+      "muscle_group": "Full Body",
+      "exercises": [
+        {
+          "name": "Deadlifts",
+          "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Stand with feet hip-width apart, bend at the hips and knees to lower the barbell, then stand back up with controlled movement.",
+          "sets": 4,
+          "reps": 8,
+          "rest": 60 
+        },
+        {
+          "name": "Pull-ups",
+          "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with hands slightly wider than shoulder-width. Pull your body up until your chin clears the bar.",
+          "sets": 3,
+          "reps": "Max reps",
+          "rest": 45 
+        },
+        {
+          "name": "Hanging Leg Raises",
+          "description": "Targets: Core, lower abs.<br>How to: Hang from a pull-up bar and lift your legs towards your chest, keeping them straight. Lower with control.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 45 
+        },
+        {
+          "name": "Front Squats",
+          "description": "Targets: Quads, glutes, core.<br>How to: Hold a barbell in front of your shoulders, stand with feet shoulder-width apart, and perform controlled squats.",
+          "sets": 4,
+          "reps": 10,
+          "rest": 60 
+        },
+        {
+          "name": "Dips",
+          "description": "Targets: Chest, triceps, shoulders.<br>How to: Use parallel bars, lower your body until your upper arms are parallel to the ground, then push back up.",
+          "sets": 3,
+          "reps": "Max reps",
+          "rest": 45 
+        },
+        {
+          "name": "Windshield Wipers",
+          "description": "Targets: Obliques, core.<br>How to: Lie on your back, lift your legs, and rotate them from side to side, reaching towards the floor with your legs.",
+          "sets": 3,
+          "reps": 20,
+          "rest": 30 
+        },
+        {
+          "name": "Standing Calf Raises",
+          "description": "Targets: Calves.<br>How to: Stand with feet hip-width apart, rise onto your toes, then lower your heels below the level of the floor.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 30 
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "muscle_group": "Upper Body (Push)",
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, press it overhead, and lower it back down with control.",
+          "sets": 4,
+          "reps": 8,
+          "rest": 60 
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "description": "Targets: Upper chest, triceps.<br>How to: Lie on an incline bench, hold dumbbells above your chest, and press them up.",
+          "sets": 3,
+          "reps": 10,
+          "rest": 45 
+        },
+        {
+          "name": "Tricep Dips",
+          "description": "Targets: Triceps.<br>How to: Use parallel bars, lower your body by bending your elbows, then push back up.",
+          "sets": 3,
+          "reps": "Max reps",
+          "rest": 45 
+        },
+        {
+          "name": "Chest Flyes",
+          "description": "Targets: Chest, shoulders.<br>How to: Lie on a flat bench, hold dumbbells over your chest, and open your arms wide before bringing them back together.",
+          "sets": 4,
+          "reps": 10,
+          "rest": 60 
+        },
+        {
+          "name": "Diamond Push-ups",
+          "description": "Targets: Triceps, chest.<br>How to: Start in a push-up position with hands close together, lower your body, and push back up.",
+          "sets": 3,
+          "reps": "Max reps",
+          "rest": 45 
+        },
+        {
+          "name": "Side Planks",
+          "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+          "sets": 3,
+          "time": "60",
+          "rest": 30 
+        },
+        {
+          "name": "Seated Calf Raises",
+          "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 30 
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "muscle_group": "Lower Body",
+      "exercises": [
+        {
+          "name": "Barbell Lunges",
+          "description": "Targets: Quads, glutes, hamstrings.<br>How to: Hold a barbell on your upper back, step forward with one leg, and lower your body until both knees are bent at a 90-degree angle.",
+          "sets": 4,
+          "reps": 12,
+          "rest": 60 
+        },
+        {
+          "name": "Romanian Deadlifts",
+          "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and lower the barbell while keeping your back straight. Stand back up with control.",
+          "sets": 3,
+          "reps": 10,
+          "rest": 45 
+        },
+        {
+          "name": "Leg Extensions",
+          "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 45 
+        },
+        {
+          "name": "Box Jumps",
+          "description": "Targets: Quads, calves, explosive power.<br>How to: Stand in front of a sturdy box or platform, jump onto the box, landing with both feet, and then step back down.",
+          "sets": 4,
+          "reps": 10,
+          "rest": 60 
+        },
+        {
+          "name": "Hamstring Curls",
+          "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+          "sets": 3,
+          "reps": 12,
+          "rest": 45 
+        },
+        {
+          "name": "Plank Variations",
+          "description": "Targets: Core.<br>How to: Perform different plank variations, such as forearm plank, side plank, and plank with leg lifts. Hold each variation for 30 seconds.",
+          "sets": 3,
+          "time": "30 each",
+          "rest": 30 
+        },
+        {
+          "name": "Seated Calf Raises",
+          "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 30 
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "muscle_group": "Upper Body (Pull)",
+      "exercises": [
+        {
+          "name": "Barbell Rows",
+          "description": "Targets: Upper back, lats, biceps.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and row the barbell to your lower chest. Lower the barbell with control.",
+          "sets": 4,
+          "reps": 10,
+          "rest": 60 
+        },
+        {
+          "name": "Lat Pulldowns",
+          "description": "Targets: Lats, biceps, upper back.<br>How to: Use a lat pulldown machine, pull the bar down to your chest, and then extend it back up.",
+          "sets": 3,
+          "reps": 12,
+          "rest": 45 
+        },
+        {
+          "name": "Face Pulls",
+          "description": "Targets: Rear delts, traps.<br>How to: Use a cable machine with a rope attachment, pull the rope towards your face, and squeeze your shoulder blades together.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 45 
+        },
+        {
+          "name": "Barbell Shrugs",
+          "description": "Targets: Trapezius muscles.<br>How to: Hold a barbell with an overhand grip, shrug your shoulders towards your ears, and then lower them back down.",
+          "sets": 4,
+          "reps": 12,
+          "rest": 60 
+        },
+        {
+          "name": "Hammer Curls",
+          "description": "Targets: Biceps, forearms.<br>How to: Hold dumbbells with a neutral grip, curl them towards your shoulders, and then lower them back down with control.",
+          "sets": 3,
+          "reps": 12,
+          "rest": 45 
+        },
+        {
+          "name": "Plank with Alternating Arm and Leg Lifts",
+          "description": "Targets: Core.<br>How to: Get into a plank position, lift one arm and the opposite leg, and then switch sides. Maintain a straight line from head to heels.",
+          "sets": 3,
+          "reps": "10 each",
+          "rest": 30 
+        },
+        {
+          "name": "Seated Calf Raises",
+          "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 30 
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "muscle_group": "Push and Pull",
+      "exercises": [
+        {
+          "name": "Arnold Press",
+          "description": "Targets: Shoulders, triceps.<br>How to: Sit on a bench, hold dumbbells at shoulder height, rotate them as you press overhead, and then bring them back down.",
+          "sets": 4,
+          "reps": 10,
+          "rest": 60 
+        },
+        {
+          "name": "Weighted Pull-ups",
+          "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with added weight, pull your body up until your chin clears the bar.",
+          "sets": 3,
+          "reps": 8,
+          "rest": 45 
+        },
+        {
+          "name": "Tricep Kickbacks",
+          "description": "Targets: Triceps.<br>How to: Hold dumbbells with a neutral grip, extend your arms back, and squeeze your triceps. Lower the dumbbells back with control.",
+          "sets": 3,
+          "reps": 12,
+          "rest": 45 
+        },
+        {
+          "name": "Push Press",
+          "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, dip at the knees, and explosively press the barbell overhead.",
+          "sets": 4,
+          "reps": 8,
+          "rest": 60 
+        },
+        {
+          "name": "Close Grip Bench Press",
+          "description": "Targets: Triceps, chest.<br>How to: Lie on a flat bench, grip the barbell with hands close together, lower the bar to your chest, and press it back up.",
+          "sets": 3,
+          "reps": 10,
+          "rest": 45 
+        },
+        {
+          "name": "Russian Twist with Medicine Ball",
+          "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side while holding a medicine ball.",
+          "sets": 3,
+          "reps": 20,
+          "rest": 30 
+        },
+        {
+          "name": "Seated Calf Raises",
+          "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 30 
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "muscle_group": "Leg Day",
+      "exercises": [
+        {
+          "name": "Back Squats",
+          "description": "Targets: Quads, glutes, hamstrings, core.<br>How to: Place a barbell on your upper back, stand with feet shoulder-width apart, and perform squats with controlled descent and explosive ascent. Keep your back straight, and ensure proper depth.",
+          "sets": 5,
+          "reps": 8,
+          "rest": 60 
+        },
+        {
+          "name": "Leg Press",
+          "description": "Targets: Quads, hamstrings, glutes.<br>How to: Sit on a leg press machine, feet shoulder-width apart. Push the platform away by extending your knees, then lower it back down with control.",
+          "sets": 4,
+          "reps": 12,
+          "rest": 60 
+        },
+        {
+          "name": "Walking Lunges",
+          "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+          "sets": 3,
+          "reps": 20,
+          "rest": 45 
+        },
+        {
+          "name": "Leg Extensions",
+          "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 45 
+        },
+        {
+          "name": "Hamstring Curls",
+          "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+          "sets": 3,
+          "reps": 12,
+          "rest": 45 
+        },
+        {
+          "name": "Plank",
+          "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles. Increase duration as needed.",
+          "sets": 3,
+          "time": "60",
+          "rest": 30 
+        },
+        {
+          "name": "Seated Calf Raises",
+          "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+          "sets": 3,
+          "reps": 15,
+          "rest": 30 
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "muscle_group": "Active Recovery",
+      "exercises": [
+        {
+          "name": "Light Jogging",
+          "description": "Targets: Cardiovascular system.<br>How to: Jog at a light pace for 20-30 minutes to promote blood flow and aid recovery.",
+          "sets": 1,
+          "time": "20-30 minutes",
+          "rest": "Active recovery"
+        },
+        {
+          "name": "Yoga or Stretching",
+          "description": "Targets: Flexibility, mobility.<br>How to: Engage in a yoga session or perform a comprehensive stretching routine to enhance flexibility and reduce muscle tension.",
+          "sets": 1,
+          "time": "30 minutes",
+          "rest": "Active recovery"
+        },
+        {
+          "name": "Foam Rolling",
+          "description": "Targets: Myofascial release.<br>How to: Use a foam roller to roll over different muscle groups, applying gentle pressure to release tension and improve recovery.",
+          "sets": 1,
+          "time": "15 minutes",
+          "rest": "Active recovery"
+        },
+        {
+          "name": "Meditation",
+          "description": "Targets: Mental well-being.<br>How to: Practice mindfulness meditation for 10-15 minutes to reduce stress and promote mental recovery.",
+          "sets": 1,
+          "time": "10-15 minutes",
+          "rest": "Active recovery"
+        }
+      ]
+    },
+    {
+        "day": 8,
+        "muscle_group": "Full Body",
+        "exercises": [
+          {
+            "name": "Deadlifts",
+            "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Stand with feet hip-width apart, bend at the hips and knees to lower the barbell, then stand back up with controlled movement.",
+            "sets": 4
+          },
+          {
+            "name": "Pull-ups",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with hands slightly wider than shoulder-width. Pull your body up until your chin clears the bar.",
+            "sets": 3
+          },
+          {
+            "name": "Hanging Leg Raises",
+            "description": "Targets: Core, lower abs.<br>How to: Hang from a pull-up bar and lift your legs towards your chest, keeping them straight. Lower with control.",
+            "sets": 3
+          },
+          {
+            "name": "Front Squats",
+            "description": "Targets: Quads, glutes, core.<br>How to: Hold a barbell in front of your shoulders, stand with feet shoulder-width apart, and perform controlled squats.",
+            "sets": 4
+          },
+          {
+            "name": "Dips",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Use parallel bars, lower your body until your upper arms are parallel to the ground, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Windshield Wipers",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your back, lift your legs, and rotate them from side to side, reaching towards the floor with your legs.",
+            "sets": 3
+          },
+          {
+            "name": "Standing Calf Raises",
+            "description": "Targets: Calves.<br>How to: Stand with feet hip-width apart, rise onto your toes, then lower your heels below the level of the floor.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 9,
+        "muscle_group": "Upper Body (Push)",
+        "exercises": [
+          {
+            "name": "Overhead Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, press it overhead, and lower it back down with control.",
+            "sets": 4
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "description": "Targets: Upper chest, triceps.<br>How to: Lie on an incline bench, hold dumbbells above your chest, and press them up.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Dips",
+            "description": "Targets: Triceps.<br>How to: Use parallel bars, lower your body by bending your elbows, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Chest Flyes",
+            "description": "Targets: Chest, shoulders.<br>How to: Lie on a flat bench, hold dumbbells over your chest, and open your arms wide before bringing them back together.",
+            "sets": 4
+          },
+          {
+            "name": "Diamond Push-ups",
+            "description": "Targets: Triceps, chest.<br>How to: Start in a push-up position with hands close together, lower your body, and push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Side Planks",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 10,
+        "muscle_group": "Lower Body",
+        "exercises": [
+          {
+            "name": "Barbell Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Hold a barbell on your upper back, step forward with one leg, and lower your body until both knees are bent at a 90-degree angle.",
+            "sets": 4
+          },
+          {
+            "name": "Romanian Deadlifts",
+            "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and lower the barbell while keeping your back straight. Stand back up with control.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Extensions",
+            "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Box Jumps",
+            "description": "Targets: Quads, calves, explosive power.<br>How to: Stand in front of a sturdy box or platform, jump onto the box, landing with both feet, and then step back down.",
+            "sets": 4
+          },
+          {
+            "name": "Hamstring Curls",
+            "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+            "sets": 3
+          },
+          {
+            "name": "Plank Variations",
+            "description": "Targets: Core.<br>How to: Perform different plank variations, such as forearm plank, side plank, and plank with leg lifts. Hold each variation for 30 seconds.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 11,
+        "muscle_group": "Upper Body (Pull)",
+        "exercises": [
+          {
+            "name": "Barbell Rows",
+            "description": "Targets: Upper back, lats, biceps.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and row the barbell to your lower chest. Lower the barbell with control.",
+            "sets": 4
+          },
+          {
+            "name": "Lat Pulldowns",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Use a lat pulldown machine, pull the bar down to your chest, and then extend it back up.",
+            "sets": 3
+          },
+          {
+            "name": "Face Pulls",
+            "description": "Targets: Rear delts, traps.<br>How to: Use a cable machine with a rope attachment, pull the rope towards your face, and squeeze your shoulder blades together.",
+            "sets": 3
+          },
+          {
+            "name": "Barbell Shrugs",
+            "description": "Targets: Trapezius muscles.<br>How to: Hold a barbell with an overhand grip, shrug your shoulders towards your ears, and then lower them back down.",
+            "sets": 4
+          },
+          {
+            "name": "Hammer Curls",
+            "description": "Targets: Biceps, forearms.<br>How to: Hold dumbbells with a neutral grip, curl them towards your shoulders, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Plank with Alternating Arm and Leg Lifts",
+            "description": "Targets: Core.<br>How to: Get into a plank position, lift one arm and the opposite leg, and then switch sides. Maintain a straight line from head to heels.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 12,
+        "muscle_group": "Push and Pull",
+        "exercises": [
+          {
+            "name": "Arnold Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Sit on a bench, hold dumbbells at shoulder height, rotate them as you press overhead, and then bring them back down.",
+            "sets": 4
+          },
+          {
+            "name": "Weighted Pull-ups",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with added weight, pull your body up until your chin clears the bar.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Kickbacks",
+            "description": "Targets: Triceps.<br>How to: Hold dumbbells with a neutral grip, extend your arms back, and squeeze your triceps. Lower the dumbbells back with control.",
+            "sets": 3
+          },
+          {
+            "name": "Push Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, dip at the knees, and explosively press the barbell overhead.",
+            "sets": 4
+          },
+          {
+            "name": "Close Grip Bench Press",
+            "description": "Targets: Triceps, chest.<br>How to: Lie on a flat bench, grip the barbell with hands close together, lower the bar to your chest, and press it back up.",
+            "sets": 3
+          },
+          {
+            "name": "Russian Twist with Medicine Ball",
+            "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side while holding a medicine ball.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 13,
+        "muscle_group": "Leg Day",
+        "exercises": [
+          {
+            "name": "Back Squats",
+            "description": "Targets: Quads, glutes, hamstrings, core.<br>How to: Place a barbell on your upper back, stand with feet shoulder-width apart, and perform squats with controlled descent and explosive ascent. Keep your back straight, and ensure proper depth.",
+            "sets": 5
+          },
+          {
+            "name": "Leg Press",
+            "description": "Targets: Quads, hamstrings, glutes.<br>How to: Sit on a leg press machine, feet shoulder-width apart. Push the platform away by extending your knees, then lower it back down with control.",
+            "sets": 4
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Extensions",
+            "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Hamstring Curls",
+            "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles. Increase duration as needed.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 14,
+        "muscle_group": "Active Recovery",
+        "exercises": [
+          {
+            "name": "Light Jogging",
+            "description": "Targets: Cardiovascular system.<br>How to: Jog at a light pace for 20-30 minutes to promote blood flow and aid recovery.",
+            "sets": 1,
+            "time": "20-30 minutes"
+          },
+          {
+            "name": "Yoga or Stretching",
+            "description": "Targets: Flexibility, mobility.<br>How to: Engage in a yoga session or perform a comprehensive stretching routine to enhance flexibility and reduce muscle tension.",
+            "sets": 1,
+            "time": "30 minutes"
+          },
+          {
+            "name": "Foam Rolling",
+            "description": "Targets: Myofascial release.<br>How to: Use a foam roller to roll over different muscle groups, applying gentle pressure to release tension and improve recovery.",
+            "sets": 1,
+            "time": "15 minutes"
+          },
+          {
+            "name": "Meditation",
+            "description": "Targets: Mental well-being.<br>How to: Practice mindfulness meditation for 10-15 minutes to reduce stress and promote mental recovery.",
+            "sets": 1,
+            "time": "10-15 minutes"
+          }
+        ]
+      },
+      {
+        "day": 15,
+        "muscle_group": "Full Body",
+        "exercises": [
+          {
+            "name": "Deadlifts",
+            "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Stand with feet hip-width apart, bend at the hips and knees to lower the barbell, then stand back up with controlled movement.",
+            "sets": 4
+          },
+          {
+            "name": "Pull-ups",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with hands slightly wider than shoulder-width. Pull your body up until your chin clears the bar.",
+            "sets": 3
+          },
+          {
+            "name": "Hanging Leg Raises",
+            "description": "Targets: Core, lower abs.<br>How to: Hang from a pull-up bar and lift your legs towards your chest, keeping them straight. Lower with control.",
+            "sets": 3
+          },
+          {
+            "name": "Front Squats",
+            "description": "Targets: Quads, glutes, core.<br>How to: Hold a barbell in front of your shoulders, stand with feet shoulder-width apart, and perform controlled squats.",
+            "sets": 4
+          },
+          {
+            "name": "Dips",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Use parallel bars, lower your body until your upper arms are parallel to the ground, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Windshield Wipers",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your back, lift your legs, and rotate them from side to side, reaching towards the floor with your legs.",
+            "sets": 3
+          },
+          {
+            "name": "Standing Calf Raises",
+            "description": "Targets: Calves.<br>How to: Stand with feet hip-width apart, rise onto your toes, then lower your heels below the level of the floor.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 16,
+        "muscle_group": "Upper Body (Push)",
+        "exercises": [
+          {
+            "name": "Overhead Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, press it overhead, and lower it back down with control.",
+            "sets": 4
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "description": "Targets: Upper chest, triceps.<br>How to: Lie on an incline bench, hold dumbbells above your chest, and press them up.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Dips",
+            "description": "Targets: Triceps.<br>How to: Use parallel bars, lower your body by bending your elbows, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Chest Flyes",
+            "description": "Targets: Chest, shoulders.<br>How to: Lie on a flat bench, hold dumbbells over your chest, and open your arms wide before bringing them back together.",
+            "sets": 4
+          },
+          {
+            "name": "Diamond Push-ups",
+            "description": "Targets: Triceps, chest.<br>How to: Start in a push-up position with hands close together, lower your body, and push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Side Planks",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 17,
+        "muscle_group": "Lower Body",
+        "exercises": [
+          {
+            "name": "Barbell Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Hold a barbell on your upper back, step forward with one leg, and lower your body until both knees are bent at a 90-degree angle.",
+            "sets": 4
+          },
+          {
+            "name": "Romanian Deadlifts",
+            "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and lower the barbell while keeping your back straight. Stand back up with control.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Extensions",
+            "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Box Jumps",
+            "description": "Targets: Quads, calves, explosive power.<br>How to: Stand in front of a sturdy box or platform, jump onto the box, landing with both feet, and then step back down.",
+            "sets": 4
+          },
+          {
+            "name": "Hamstring Curls",
+            "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+            "sets": 3
+          },
+          {
+            "name": "Plank Variations",
+            "description": "Targets: Core.<br>How to: Perform different plank variations, such as forearm plank, side plank, and plank with leg lifts. Hold each variation for 30 seconds.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 18,
+        "muscle_group": "Upper Body (Pull)",
+        "exercises": [
+          {
+            "name": "Barbell Rows",
+            "description": "Targets: Upper back, lats, biceps.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and row the barbell to your lower chest. Lower the barbell with control.",
+            "sets": 4
+          },
+          {
+            "name": "Lat Pulldowns",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Use a lat pulldown machine, pull the bar down to your chest, and then extend it back up.",
+            "sets": 3
+          },
+          {
+            "name": "Face Pulls",
+            "description": "Targets: Rear delts, traps.<br>How to: Use a cable machine with a rope attachment, pull the rope towards your face, and squeeze your shoulder blades together.",
+            "sets": 3
+          },
+          {
+            "name": "Barbell Shrugs",
+            "description": "Targets: Trapezius muscles.<br>How to: Hold a barbell with an overhand grip, shrug your shoulders towards your ears, and then lower them back down.",
+            "sets": 4
+          },
+          {
+            "name": "Hammer Curls",
+            "description": "Targets: Biceps, forearms.<br>How to: Hold dumbbells with a neutral grip, curl them towards your shoulders, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Plank with Alternating Arm and Leg Lifts",
+            "description": "Targets: Core.<br>How to: Get into a plank position, lift one arm and the opposite leg, and then switch sides. Maintain a straight line from head to heels.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 19,
+        "muscle_group": "Push and Pull",
+        "exercises": [
+          {
+            "name": "Arnold Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Sit on a bench, hold dumbbells at shoulder height, rotate them as you press overhead, and then bring them back down.",
+            "sets": 4
+          },
+          {
+            "name": "Weighted Pull-ups",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with added weight, pull your body up until your chin clears the bar.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Kickbacks",
+            "description": "Targets: Triceps.<br>How to: Hold dumbbells with a neutral grip, extend your arms back, and squeeze your triceps. Lower the dumbbells back with control.",
+            "sets": 3
+          },
+          {
+            "name": "Push Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, dip at the knees, and explosively press the barbell overhead.",
+            "sets": 4
+          },
+          {
+            "name": "Close Grip Bench Press",
+            "description": "Targets: Triceps, chest.<br>How to: Lie on a flat bench, grip the barbell with hands close together, lower the bar to your chest, and press it back up.",
+            "sets": 3
+          },
+          {
+            "name": "Russian Twist with Medicine Ball",
+            "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side while holding a medicine ball.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 20,
+        "muscle_group": "Leg Day",
+        "exercises": [
+          {
+            "name": "Back Squats",
+            "description": "Targets: Quads, glutes, hamstrings, core.<br>How to: Place a barbell on your upper back, stand with feet shoulder-width apart, and perform squats with controlled descent and explosive ascent. Keep your back straight, and ensure proper depth.",
+            "sets": 5
+          },
+          {
+            "name": "Leg Press",
+            "description": "Targets: Quads, hamstrings, glutes.<br>How to: Sit on a leg press machine, feet shoulder-width apart. Push the platform away by extending your knees, then lower it back down with control.",
+            "sets": 4
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Extensions",
+            "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Hamstring Curls",
+            "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles. Increase duration as needed.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 21,
+        "muscle_group": "Active Recovery",
+        "exercises": [
+          {
+            "name": "Light Jogging",
+            "description": "Targets: Cardiovascular system.<br>How to: Jog at a light pace for 20-30 minutes to promote blood flow and aid recovery.",
+            "sets": 1,
+            "time": "20-30 minutes"
+          },
+          {
+            "name": "Yoga or Stretching",
+            "description": "Targets: Flexibility, mobility.<br>How to: Engage in a yoga session or perform a comprehensive stretching routine to enhance flexibility and reduce muscle tension.",
+            "sets": 1,
+            "time": "30 minutes"
+          },
+          {
+            "name": "Foam Rolling",
+            "description": "Targets: Myofascial release.<br>How to: Use a foam roller to roll over different muscle groups, applying gentle pressure to release tension and improve recovery.",
+            "sets": 1,
+            "time": "15 minutes"
+          },
+          {
+            "name": "Meditation",
+            "description": "Targets: Mental well-being.<br>How to: Practice mindfulness meditation for 10-15 minutes to reduce stress and promote mental recovery.",
+            "sets": 1,
+            "time": "10-15 minutes"
+          }
+        ]
+      },
+      {
+        "day": 22,
+        "muscle_group": "Full Body",
+        "exercises": [
+          {
+            "name": "Deadlifts",
+            "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Stand with feet hip-width apart, bend at the hips and knees to lower the barbell, then stand back up with controlled movement.",
+            "sets": 4
+          },
+          {
+            "name": "Pull-ups",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with hands slightly wider than shoulder-width. Pull your body up until your chin clears the bar.",
+            "sets": 3
+          },
+          {
+            "name": "Hanging Leg Raises",
+            "description": "Targets: Core, lower abs.<br>How to: Hang from a pull-up bar and lift your legs towards your chest, keeping them straight. Lower with control.",
+            "sets": 3
+          },
+          {
+            "name": "Front Squats",
+            "description": "Targets: Quads, glutes, core.<br>How to: Hold a barbell in front of your shoulders, stand with feet shoulder-width apart, and perform controlled squats.",
+            "sets": 4
+          },
+          {
+            "name": "Dips",
+            "description": "Targets: Chest, triceps, shoulders.<br>How to: Use parallel bars, lower your body until your upper arms are parallel to the ground, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Windshield Wipers",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your back, lift your legs, and rotate them from side to side, reaching towards the floor with your legs.",
+            "sets": 3
+          },
+          {
+            "name": "Standing Calf Raises",
+            "description": "Targets: Calves.<br>How to: Stand with feet hip-width apart, rise onto your toes, then lower your heels below the level of the floor.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 23,
+        "muscle_group": "Upper Body (Push)",
+        "exercises": [
+          {
+            "name": "Overhead Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, press it overhead, and lower it back down with control.",
+            "sets": 4
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "description": "Targets: Upper chest, triceps.<br>How to: Lie on an incline bench, hold dumbbells above your chest, and press them up.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Dips",
+            "description": "Targets: Triceps.<br>How to: Use parallel bars, lower your body by bending your elbows, then push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Chest Flyes",
+            "description": "Targets: Chest, shoulders.<br>How to: Lie on a flat bench, hold dumbbells over your chest, and open your arms wide before bringing them back together.",
+            "sets": 4
+          },
+          {
+            "name": "Diamond Push-ups",
+            "description": "Targets: Triceps, chest.<br>How to: Start in a push-up position with hands close together, lower your body, and push back up.",
+            "sets": 3
+          },
+          {
+            "name": "Side Planks",
+            "description": "Targets: Obliques, core.<br>How to: Lie on your side, lift your body off the ground using your forearm, and hold a side plank position.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 24,
+        "muscle_group": "Lower Body",
+        "exercises": [
+          {
+            "name": "Barbell Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Hold a barbell on your upper back, step forward with one leg, and lower your body until both knees are bent at a 90-degree angle.",
+            "sets": 4
+          },
+          {
+            "name": "Romanian Deadlifts",
+            "description": "Targets: Hamstrings, glutes, lower back.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and lower the barbell while keeping your back straight. Stand back up with control.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Extensions",
+            "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Box Jumps",
+            "description": "Targets: Quads, calves, explosive power.<br>How to: Stand in front of a sturdy box or platform, jump onto the box, landing with both feet, and then step back down.",
+            "sets": 4
+          },
+          {
+            "name": "Hamstring Curls",
+            "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+            "sets": 3
+          },
+          {
+            "name": "Plank Variations",
+            "description": "Targets: Core.<br>How to: Perform different plank variations, such as forearm plank, side plank, and plank with leg lifts. Hold each variation for 30 seconds.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 25,
+        "muscle_group": "Upper Body (Pull)",
+        "exercises": [
+          {
+            "name": "Barbell Rows",
+            "description": "Targets: Upper back, lats, biceps.<br>How to: Hold a barbell with an overhand grip, bend at the hips, and row the barbell to your lower chest. Lower the barbell with control.",
+            "sets": 4
+          },
+          {
+            "name": "Lat Pulldowns",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Use a lat pulldown machine, pull the bar down to your chest, and then extend it back up.",
+            "sets": 3
+          },
+          {
+            "name": "Face Pulls",
+            "description": "Targets: Rear delts, traps.<br>How to: Use a cable machine with a rope attachment, pull the rope towards your face, and squeeze your shoulder blades together.",
+            "sets": 3
+          },
+          {
+            "name": "Barbell Shrugs",
+            "description": "Targets: Trapezius muscles.<br>How to: Hold a barbell with an overhand grip, shrug your shoulders towards your ears, and then lower them back down.",
+            "sets": 4
+          },
+          {
+            "name": "Hammer Curls",
+            "description": "Targets: Biceps, forearms.<br>How to: Hold dumbbells with a neutral grip, curl them towards your shoulders, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Plank with Alternating Arm and Leg Lifts",
+            "description": "Targets: Core.<br>How to: Get into a plank position, lift one arm and the opposite leg, and then switch sides. Maintain a straight line from head to heels.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 26,
+        "muscle_group": "Push and Pull",
+        "exercises": [
+          {
+            "name": "Arnold Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Sit on a bench, hold dumbbells at shoulder height, rotate them as you press overhead, and then bring them back down.",
+            "sets": 4
+          },
+          {
+            "name": "Weighted Pull-ups",
+            "description": "Targets: Lats, biceps, upper back.<br>How to: Hang from a pull-up bar with added weight, pull your body up until your chin clears the bar.",
+            "sets": 3
+          },
+          {
+            "name": "Tricep Kickbacks",
+            "description": "Targets: Triceps.<br>How to: Hold dumbbells with a neutral grip, extend your arms back, and squeeze your triceps. Lower the dumbbells back with control.",
+            "sets": 3
+          },
+          {
+            "name": "Push Press",
+            "description": "Targets: Shoulders, triceps.<br>How to: Hold a barbell at shoulder height, dip at the knees, and explosively press the barbell overhead.",
+            "sets": 4
+          },
+          {
+            "name": "Close Grip Bench Press",
+            "description": "Targets: Triceps, chest.<br>How to: Lie on a flat bench, grip the barbell with hands close together, lower the bar to your chest, and press it back up.",
+            "sets": 3
+          },
+          {
+            "name": "Russian Twist with Medicine Ball",
+            "description": "Targets: Obliques, core.<br>How to: Sit on the floor, lean back slightly, and twist your torso to touch the ground on each side while holding a medicine ball.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 27,
+        "muscle_group": "Leg Day",
+        "exercises": [
+          {
+            "name": "Back Squats",
+            "description": "Targets: Quads, glutes, hamstrings, core.<br>How to: Place a barbell on your upper back, stand with feet shoulder-width apart, and perform squats with controlled descent and explosive ascent. Keep your back straight, and ensure proper depth.",
+            "sets": 5
+          },
+          {
+            "name": "Leg Press",
+            "description": "Targets: Quads, hamstrings, glutes.<br>How to: Sit on a leg press machine, feet shoulder-width apart. Push the platform away by extending your knees, then lower it back down with control.",
+            "sets": 4
+          },
+          {
+            "name": "Walking Lunges",
+            "description": "Targets: Quads, glutes, hamstrings.<br>How to: Take a step forward with one leg, lower your body until both knees are bent at a 90-degree angle, then push off with your back foot and bring it forward into the next lunge.",
+            "sets": 3
+          },
+          {
+            "name": "Leg Extensions",
+            "description": "Targets: Quads.<br>How to: Use a leg extension machine, extend your legs forward, and then lower them back down with control.",
+            "sets": 3
+          },
+          {
+            "name": "Hamstring Curls",
+            "description": "Targets: Hamstrings.<br>How to: Use a hamstring curl machine, curl your legs towards your glutes, and then extend them back out.",
+            "sets": 3
+          },
+          {
+            "name": "Plank",
+            "description": "Targets: Core.<br>How to: Get into a plank position, forearms on the ground, and maintain a straight line from head to heels. Hold the position, engaging your core muscles. Increase duration as needed.",
+            "sets": 3
+          },
+          {
+            "name": "Seated Calf Raises",
+            "description": "Targets: Calves.<br>How to: Sit with a weight on your knees, raise your heels by extending your ankles, then lower them back down.",
+            "sets": 3
+          }
+        ]
+      },
+      {
+        "day": 28,
+        "muscle_group": "Active Recovery",
+        "exercises": [
+          {
+            "name": "Light Jogging",
+            "description": "Targets: Cardiovascular system.<br>How to: Jog at a light pace for 20-30 minutes to promote blood flow and aid recovery.",
+            "sets": 1,
+            "time": "20-30 minutes"
+          },
+          {
+            "name": "Yoga or Stretching",
+            "description": "Targets: Flexibility, mobility.<br>How to: Engage in a yoga session or perform a comprehensive stretching routine to enhance flexibility and reduce muscle tension.",
+            "sets": 1,
+            "time": "30 minutes"
+          },
+          {
+            "name": "Foam Rolling",
+            "description": "Targets: Myofascial release.<br>How to: Use a foam roller to roll over different muscle groups, applying gentle pressure to release tension and improve recovery.",
+            "sets": 1,
+            "time": "15 minutes"
+          },
+          {
+            "name": "Meditation",
+            "description": "Targets: Mental well-being.<br>How to: Practice mindfulness meditation for 10-15 minutes to reduce stress and promote mental recovery.",
+            "sets": 1,
+            "time": "10-15 minutes"
+          }
+        ]
+      }
+]
