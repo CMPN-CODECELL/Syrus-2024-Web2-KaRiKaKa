@@ -3,222 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Personal Journal</title>
+    <title>My Diary</title>
+    <link rel="stylesheet" href="../journal.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
+        /* Additional CSS styles */
+        .diary-header {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            height: 100vh;
-        }
-
-        .journal-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 60%;
-            min-height: 300px;
-        }
-
-        .entry {
             margin-bottom: 20px;
         }
 
-        .entry-title {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 10px;
+        .diary-header h1 {
+            margin: 0;
+            color: #36594D;
         }
 
-        .entry-content {
-            font-size: 16px;
-            color: #666;
+        .theme-container {
+            display: flex;
+            align-items: center;
         }
 
-        .plus-icon {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 50px;
-            height: 50px;
-            background-color: #007bff;
-            color: #fff;
+        .theme-container > * {
+            margin-right: 10px;
+        }
+
+        .color-picker {
+            width: 30px;
+            height: 30px;
             border: none;
             border-radius: 50%;
             cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        .plus-icon:hover {
-            background-color: #0056b3;
+        .dropdown {
+            position: relative;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #fff;
         }
 
-        .modal {
+        .dropdown-content {
             display: none;
-            position: fixed;
-            z-index: 1;
+            position: absolute;
+            top: 100%;
             left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.4);
+            background-color: #f9f9f9;
+            min-width: 100px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1;
         }
 
-        .modal-content {
-            background-color: #fefefe;
-            margin: 20% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            border-radius: 8px;
-            width: 80%;
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
+        .dropdown-content a {
+            color: #333;
+            padding: 10px;
             text-decoration: none;
+            display: block;
             cursor: pointer;
         }
 
-        .editor-toolbar {
-            margin-bottom: 10px;
+        .dropdown-content a:hover {
+            background-color: #ddd;
         }
 
-        .editor-toolbar button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 3px;
-            padding: 5px 10px;
-            margin-right: 5px;
-            cursor: pointer;
+        .dropdown:hover .dropdown-content {
+            display: block;
         }
 
-        .editor-toolbar button:hover {
-            background-color: #0056b3;
-        }
-
-        .editor-content {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            min-height: 200px;
-        }
-
-        .entry-title-input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        .custom-input {
+            display: inline-block;
+            width: 120px;
         }
     </style>
 </head>
-<body>
-    <div class="journal-container">
-        <div class="entry">
-            <h2 class="entry-title">Entry Title</h2>
-            <div class="entry-content">Entry content goes here...</div>
-        </div>
-    </div>
-
-    <button class="plus-icon" onclick="openModal()">+</button>
-
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2>Create New Entry</h2>
-            <input type="text" class="entry-title-input" placeholder="Entry Title">
-            <div class="editor-toolbar">
-                <button onclick="changeTextColor()">Text Color</button>
-                <button onclick="changeTextSize()">Text Size</button>
-                <button onclick="changeFontStyle()">Font Style</button>
+<body onload="loadNotes()">
+    <!-- Diary editor -->
+    <div class="diary-container">
+        <div class="diary-header">
+            <h1>My Diary</h1>
+            <div class="theme-container">
+                <div>
+                    Font Color:
+                    <input type="color" class="color-picker" id="fontColorPicker" value="#000000">
+                </div>
+                <div>
+                    Background Color:
+                    <input type="color" class="color-picker" id="bgColorPicker" value="#ffffff">
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-content" id="fontFamilyDropdown">
+                        <a onclick="setFontFamily('Arial')">Arial</a>
+                        <a onclick="setFontFamily('Times New Roman')">Times New Roman</a>
+                        <a onclick="setFontFamily('Georgia')">Georgia</a>
+                        <a onclick="enableCustomFontFamilyInput()">Custom</a>
+                    </div>
+                    Font Family:
+                    <input type="text" id="fontFamilyInput" class="custom-input" placeholder="Select Font" readonly>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-content" id="fontSizeDropdown">
+                        <a onclick="setFontSize('16px')">16px</a>
+                        <a onclick="setFontSize('18px')">18px</a>
+                        <a onclick="setFontSize('20px')">20px</a>
+                        <a onclick="enableCustomFontSizeInput()">Custom</a>
+                    </div>
+                    Font Size:
+                    <input type="text" id="fontSizeInput" class="custom-input" placeholder="Select Size" readonly>
+                </div>
+                <button class="buttons" id="themechange" onclick="changeTheme()">Apply Theme</button>
             </div>
-            <div contenteditable="true" class="editor-content" id="editor">Start typing here...</div>
-            <button onclick="saveEntry()">Save Entry</button>
+        </div>
+        <textarea class="diary-text" id="my_text" placeholder="Start typing..."></textarea>
+        <div class="diary-footer">
+            <button class="buttons" id="saveBtn" onclick="saveNote()">Save</button>
+            <button id="createBtn" onclick="createNote()" title="Create New"></button>
+                
+            </button>
         </div>
     </div>
 
-    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"></script>
+    <!-- Saved notes section -->
+    <div class="saved-notes">
+        <h2>Saved Notes</h2>
+        <ul id="savedNotesList"></ul>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
     <script>
-        // Firebase configuration
-        const firebaseConfig = {
-            apiKey: "YOUR_API_KEY",
-            authDomain: "YOUR_AUTH_DOMAIN",
-            projectId: "YOUR_PROJECT_ID",
-            storageBucket: "YOUR_STORAGE_BUCKET",
-            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-            appId: "YOUR_APP_ID"
-        };
-
         // Initialize Firebase
+        const firebaseConfig = {
+            // Your Firebase configuration
+        };
         firebase.initializeApp(firebaseConfig);
-        const db = firebase.firestore();
+        const database = firebase.database();
 
-        // Open modal function
-        function openModal() {
-            document.getElementById("myModal").style.display = "block";
+        // Function to save note to Firebase
+        function saveNote() {
+            const noteText = document.getElementById("my_text").value;
+            if (noteText.trim() !== "") {
+                const noteRef = database.ref('notes').push();
+                noteRef.set({
+                    text: noteText
+                });
+                alert("Note saved successfully!");
+            } else {
+                alert("Please write something before saving!");
+            }
         }
 
-        // Close modal function
-        function closeModal() {
-            document.getElementById("myModal").style.display = "none";
+        // Function to create a new note
+        function createNote() {
+            document.getElementById("my_text").value = "";
         }
 
-        // Save entry function
-        function saveEntry() {
-            const entryTitle = document.querySelector('.entry-title-input').value;
-            const entryContent = document.querySelector('.editor-content').innerHTML;
-
-            db.collection("entries").add({
-                title: entryTitle,
-                content: entryContent
-            })
-            .then((docRef) => {
-                console.log("Document written with ID: ", docRef.id);
-            })
-            .catch((error) => {
-                console.error("Error adding document: ", error);
+        // Function to load saved notes from Firebase
+        function loadNotes() {
+            const notesRef = database.ref('notes');
+            notesRef.once('value', function(snapshot) {
+                snapshot.forEach(function(childSnapshot) {
+                    const note = childSnapshot.val().text;
+                    const noteItem = document.createElement("li");
+                    noteItem.textContent = note;
+                    document.getElementById("savedNotesList").appendChild(noteItem);
+                });
             });
-
-            closeModal();
         }
 
-        // Change text color function
-        function changeTextColor() {
-            const color = prompt("Enter text color:");
-            document.execCommand('foreColor', false, color);
+        // Function to apply theme changes
+        function changeTheme() {
+            const fontColor = document.getElementById("fontColorPicker").value;
+            const bgColor = document.getElementById("bgColorPicker").value;
+            const fontFamilyInput = document.getElementById("fontFamilyInput").value;
+            const fontSizeInput = document.getElementById("fontSizeInput").value;
+            
+            const textEditor = document.getElementById("my_text");
+            textEditor.style.color = fontColor;
+            textEditor.style.background = bgColor;
+            textEditor.style.fontFamily = fontFamilyInput;
+            textEditor.style.fontSize = fontSizeInput;
         }
 
-        // Change text size function
-        function changeTextSize() {
-            const size = prompt("Enter text size:");
-            document.execCommand('fontSize', false, size);
+        // Function to set font family
+        function setFontFamily(fontFamily) {
+            document.getElementById("fontFamilyInput").value = fontFamily;
         }
 
-        // Change font style function
-        function changeFontStyle() {
-            const style = prompt("Enter font style (e.g., Arial, Verdana, Times New Roman):");
-            document.execCommand('fontName', false, style);
+        // Function to set font size
+        function setFontSize(fontSize) {
+            document.getElementById("fontSizeInput").value = fontSize;
+        }
+    
+        // Call viewCount function when the text area is changed
+        document.getElementById("my_text").addEventListener("input", viewCount);
+        function enableCustomFontFamilyInput() {
+            document.getElementById("fontFamilyInput").readOnly = false;
+            document.getElementById("fontFamilyInput").value = "";
+        }
+
+        // Function to enable custom font size input
+        function enableCustomFontSizeInput() {
+            document.getElementById("fontSizeInput").readOnly = false;
+            document.getElementById("fontSizeInput").value = "";
         }
     </script>
 </body>
