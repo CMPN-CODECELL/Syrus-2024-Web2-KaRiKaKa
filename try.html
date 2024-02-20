@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum</title>
+    <link rel="stylesheet" href="try.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Community Forum</h1>
+        </header>
+        <section id="posts-container" class="posts">
+            <h2 id="recent-posts">Posts</h2>
+            <!-- Posts will be dynamically added here -->
+        </section>
+
+        <section class="post-form">
+            <h2>Create a New Post</h2>
+            <form id="postForm">
+                <input type="text" id="postTitle" placeholder="Title" required><br>
+                <textarea id="postContent" placeholder="Write your post here..." required></textarea><br>
+                <button type="submit">Post</button>
+            </form>
+        </section>
+    </div>
+    <script src="try.js"></script>
+</body>
+</html>
