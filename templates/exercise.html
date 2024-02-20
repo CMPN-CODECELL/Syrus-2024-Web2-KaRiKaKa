@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../homepage.css">
     <title>Exercise Routine</title>
     <style>
         body {
@@ -16,6 +17,9 @@
             flex-wrap: wrap;
             justify-content: space-around;
             padding: 20px; 
+        }
+        .day:hover {
+            transform: scale(1.05); /* Scale up on hover */
         }
 
         .day {
@@ -48,8 +52,10 @@
         }
 
         .checklist-input {
-            margin-right: 10px;
-            font-size: 20px; 
+            margin-right: 20px;
+            font-size: 24px; 
+            width: 30px; 
+            height: 30px; 
         }
 
         #right-section {
@@ -64,14 +70,13 @@
         }
 
         .back-button {
-            cursor: pointer;
-            display: block;
-            margin: 10px;
-            padding: 5px;
-            background-color: #aac7d8;
-            color: #ffffff;
-            text-align: center;
-            width: 70px;
+            margin:30px;
+            width: 50px;
+            height:50px;
+        }
+
+        .back-button:hover {
+           cursor:pointer;
         }
 
         .right-section-heading {
@@ -85,11 +90,20 @@
 </head>
 
 <body>
-
+    <nav class="main">
+        <ul class="nav-links">
+          <li><a href="#">Fitness</a></li>
+          <li><a href="#">Diet</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Forum</a></li>
+    
+        </ul>
+      </nav>
     <div id="routine-container" class="day-container"></div>
 
     <div id="right-section">
-        <span class="back-button" onclick="toggleExerciseList(null)">Back</span>
+        <img src="../icons/arrow-square-left_6407326.png" class="back-button onclick="toggleExerciseList(null)">
+        <!-- <button class="back-button" onclick="toggleExerciseList(null)">Back</button> -->
         <h2 class="right-section-heading"></h2>
         <ul id="exercise-list" class="exercise-list"></ul>
     </div>

@@ -1,119 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        textarea {
+            width: calc(100% - 22px); /* Subtracting the padding and border width */
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font: Arial, sans-serif;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        .redirect{
+            text-align: left;
+        }
+    </style>
 </head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
 
-    .register-container {
-        position: relative;
-        background-color: #fff;
-        padding: 40px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        width:20%;
-    }
-
-    .register-container h2 {
-        margin-bottom: 20px;
-        color: #36594D;
-    }
-
-    .register-container input[type="text"],
-    .register-container input[type="password"],
-    .register-container input[type="number"] {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-sizing: border-box;
-    }
-    .register-image{
-        position:absolute;
-        width:110px;
-        height:110px;
-        top:0;
-        right:0;
-
-    }
-    textarea{
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-    }
-
-    .register-container button {
-        width: 100%;
-        padding: 10px;
-        margin-top: 20px;
-        border: none;
-        background-color: #36594D;
-        color: #fff;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    .register-container button:hover {
-        background-color: #36594D;
-    }
-
-    .register-container p {
-        margin-top: 15px;
-        color: #666;
-    }
-    .back-arrow {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        cursor: pointer;
-    }
-</style>
 <body>
-    <div class="register-container">
-        <a href="#" class="back-arrow">
-            <svg width="24" height="24" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                    d="M20 11H7.414l4.293-4.293a1 1 0 1 0-1.414-1.414l-6 6a1 1 0 0 0 0 1.414l6 6a1 1 0 0 0 1.414-1.414L7.414 13H20a1 1 0 0 0 0-2z">
-                </path>
-            </svg>
-        </a>
-        <h2>Register</h2>
-        <form>
-            <img src="https://img.freepik.com/free-vector/user-verification-unauthorized-access-prevention-private-account-authentication-cyber-security-people-entering-login-password-safety-measures_335657-3530.jpg?t=st=1708419976~exp=1708423576~hmac=09a72a8a3ef127ec3610d03e8422bf8982de6ff14a1727a97394fe1c1bdc76ff&w=740" class="register-image">
-            <input type="text" name="username" placeholder="Username" required>
-            <br>
-            <input type="number" name="weight" placeholder="Weight(in kg)" required>
-            <br>
-            <input type="number" name="height" placeholder="Height(in cm)" required>
-            <br>
-            <input type="number" name="age" placeholder="Age" required>
-            <br>
-            <textarea name="about" placeholder="Tell us more about you"></textarea>
-            <br>
-            <input type="password" name="password" placeholder="Password" required>
-            <br>
-            <button type="submit">Register</button>
-        </form>
-        <p>Already have an account? <a href="LoginPage.html">Login here</a></p>
-    </div>
+    <form name="registration_form" id="registration_form" method="post" action="#" enctype="multipart/form-data">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password">
+                </div>
+
+                <div class="form-group">
+                    <label for="height">Height (cm)</label>
+                    <input type="text" name="height" id="height" class="form-control" placeholder="Enter your height">
+                </div>
+
+                <div class="form-group">
+                    <label for="weight">Weight (kg)</label>
+                    <input type="text" name="weight" id="weight" class="form-control" placeholder="Enter your weight">
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="text" name="age" id="age" class="form-control" placeholder="Enter your age">
+                </div>
+
+                <div class="form-group">
+                    <label for="about">Tell me about you</label>
+                    <textarea name="about" id="about" class="form-control" rows="4" placeholder="Write something about yourself"></textarea>
+                </div>
+
+                <button type="button" id="register" name="register" class="btn btn-success">Register Now</button>
+            </div><!-- end col -->
+
+        </div><!--  end row -->
+        <p class="redirect">Already have an account?<a href="loginPage.html">Login here</a></p>	
+    </form>
+    <script src="../auth.js"></script>
 </body>
+
 </html>

@@ -17,81 +17,78 @@
             height: 100vh;
         }
 
-        .login-container {
-            position: relative;
+        form {
             background-color: #fff;
-            padding: 40px;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            height:30vh;
             text-align: center;
+            display: inline-block;
         }
 
-        .login-container h2 {
+        .form-group {
             margin-bottom: 20px;
-            color: #36594D;
         }
 
-        .login-container input[type="text"],
-        .login-container input[type="password"] {
-            width: 100%;
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 22px); /* Subtracting the padding and border width */
             padding: 10px;
-            margin: 10px 0;
+            border-radius: 5px;
             border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
         }
 
-        .login-container button {
+        button {
             width: 100%;
             padding: 10px;
-            margin-top: 20px;
             border: none;
-            background-color: #36594D;
-            color: #fff;
             border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
             cursor: pointer;
+            font-size: 16px;
             transition: background-color 0.3s ease;
         }
 
-        .login-container button:hover {
-            background-color: #36594D;
+        button:hover {
+            background-color: #45a049;
         }
-
-        .login-container p {
-            margin-top: 15px;
-            color: #666;
-        }
-        .back-arrow {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            cursor: pointer;
+        .redirect{
+            text-align: left;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="login-container">
-        <a href="#" class="back-arrow">
-            <svg width="24" height="24" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                    d="M20 11H7.414l4.293-4.293a1 1 0 1 0-1.414-1.414l-6 6a1 1 0 0 0 0 1.414l6 6a1 1 0 0 0 1.414-1.414L7.414 13H20a1 1 0 0 0 0-2z">
-                </path>
-            </svg>
-        </a>
-        <h2>Login</h2>
-        <form>
-            <input type="text" name="username" placeholder="Username" required>
-            <br>
-            <input type="password" name="password" placeholder="Password" required>
-            <br>
-            <button type="submit">Login</button>
-        </form>
-        <p>Don't have an account? <a href="registerPage.html">Register here</a></p>
-    </div>
+    <form name="login_form" id="login_form" method="post" action="#" enctype="multipart/form-data">
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="login_email" id="login_email" class="form-control" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="login_password" id="login_password" class="form-control" placeholder="Enter your password">
+            </div>
+            <button type="button" id="login" name="login" class="btn btn-success">Login</button>
+        </div><!-- end col -->
+        
+      </div><!--  end row -->	
+      <p class="redirect">Don't have an account?<a href="registerPage.html">Register here</a></p>	
+    </form>
+
+    <script src="../auth.js"></script>
 </body>
-
-
 
 </html>
