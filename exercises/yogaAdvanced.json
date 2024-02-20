@@ -1,0 +1,730 @@
+[
+    {
+      "day": 1,
+      "muscle_group": "Advanced Strength & Balance",
+      "exercises": [
+        {
+          "name": "Flying Crow Pose (Eka Pada Galavasana)",
+          "description": "From Crow Pose, extend one leg straight back and lift it higher while keeping the other knee on the back of the same arm. Engage your core for balance."
+        },
+        {
+          "name": "Firefly Pose (Tittibhasana)",
+          "description": "Squat down, place your hands on the mat between your feet, and lift your hips. Extend your legs straight out to the sides, balancing on your hands."
+        },
+        {
+          "name": "Peacock Pose (Mayurasana)",
+          "description": "Sit on your heels, lean forward, and place your hands on the mat with fingers pointing back towards your toes. Lift your feet off the ground, keeping your body parallel to the mat."
+        },
+        {
+          "name": "Eight-Angle Pose (Astavakrasana)",
+          "description": "From a seated position, cross one ankle over the opposite knee and place both hands on the mat. Shift your weight forward and lift your hips, extending your legs to the side."
+        },
+        {
+          "name": "Handstand Press (Adho Mukha Vrksasana)",
+          "description": "Kick up into a handstand and lower your legs with control, bringing them towards the mat. Press back up to the handstand position."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "muscle_group": "Advanced Flexibility & Backbends",
+      "exercises": [
+        {
+          "name": "King Pigeon Pose (Raja Kapotasana)",
+          "description": "From Pigeon Pose, reach back with one hand to grab the foot of the same side. Arch your back and lift your chest, opening the front of your body."
+        },
+        {
+          "name": "Scorpion Pose (Vrischikasana)",
+          "description": "From Forearm Stand, bend your knees and lower them towards your head. Reach your feet towards your head, opening your chest and arching your back."
+        },
+        {
+          "name": "Bird of Paradise Pose (Svarga Dvijasana)",
+          "description": "From Mountain Pose, lift one leg and hold the big toe with the same-side hand. Extend the leg forward while keeping the other hand on the mat for balance."
+        },
+        {
+          "name": "Wild Thing Pose (Camatkarasana)",
+          "description": "From Side Plank, flip your dog by dropping the lifted leg to the floor behind you. Arch your back and reach the top arm overhead."
+        },
+        {
+          "name": "Wheel Pose Variation (Chakrasana)",
+          "description": "From Wheel Pose, extend one leg straight up towards the ceiling. Hold for a few breaths, then switch legs."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "muscle_group": "Advanced Inversions",
+      "exercises": [
+        {
+          "name": "Hollowback Handstand",
+          "description": "Kick up into a handstand and arch your back, bringing your legs towards the floor behind you. Keep your arms straight and engage your core."
+        },
+        {
+          "name": "One-Legged Inverted Staff Pose (Eka Pada Viparita Dandasana)",
+          "description": "From a seated position, place your hands behind you with fingers pointing towards your feet. Lift one leg and extend it straight up towards the ceiling."
+        },
+        {
+          "name": "Floating Lotus Inversion",
+          "description": "From a seated position, lift your legs into Lotus Pose and transition into a headstand. Balance with the legs in Lotus and slowly lower them with control."
+        },
+        {
+          "name": "Forearm Balance (Pincha Mayurasana)",
+          "description": "From Dolphin Pose, walk your feet towards your elbows and lift your legs towards the ceiling. Keep your core engaged and maintain a straight line with your body."
+        },
+        {
+          "name": "Handstand Scorpion Pose",
+          "description": "Kick up into a handstand and lower one leg towards your head, arching your back. Engage your core and maintain balance."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "muscle_group": "Advanced Core Strength",
+      "exercises": [
+        {
+          "name": "Dragonfly Pose (Maksikanagasana)",
+          "description": "Sit on the mat with legs wide apart. Lean forward and lift your legs off the ground, extending them straight out to the sides. Balance on your hands."
+        },
+        {
+          "name": "Tuck Planche",
+          "description": "From a push-up position, shift your weight forward, tuck your knees towards your chest, and lift your feet off the ground. Balance on your hands."
+        },
+        {
+          "name": "Hanging Windshield Wipers",
+          "description": "Hang from a bar with an overhand grip. Lift your legs towards one side, then lower them towards the other side in a controlled twisting motion."
+        },
+        {
+          "name": "Dragon Flag",
+          "description": "Lie on your back, hold onto a sturdy surface above your head, and lift your legs towards the ceiling. Lower them towards the floor with control."
+        },
+        {
+          "name": "Planche Push-up",
+          "description": "From a planche position, lower your body towards the ground by bending your elbows. Push back up to the starting position."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "muscle_group": "Advanced Hip Opening",
+      "exercises": [
+        {
+          "name": "Visvamitrasana",
+          "description": "From Warrior II, reach one hand to the mat inside the front foot. Lift the back leg and reach the top arm overhead, creating a straight line from fingertips to toes."
+        },
+        {
+          "name": "Astavakrasana",
+          "description": "Sit on the mat with one leg bent and the other extended straight out. Place your hands on the mat, lift your hips, and twist your torso, balancing on your hands."
+        },
+        {
+          "name": "Splits (Hanumanasana)",
+          "description": "From a low lunge position, straighten the front leg and slide the back foot back. Lower your hips towards the mat, keeping both legs straight and extended."
+        },
+        {
+          "name": "Cow Face Pose (Gomukhasana) Variation",
+          "description": "Sit on the mat with legs crossed. Reach one hand behind your back and clasp hands with the other hand reaching over the shoulder."
+        },
+        {
+          "name": "Kasyapasana",
+          "description": "Sit on the mat with one leg bent and the other extended straight out. Twist your torso towards the bent knee and bind your arms around the leg, balancing on your sit bones."
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "muscle_group": "Advanced Twists & Detox",
+      "exercises": [
+        {
+          "name": "Revolved Hand-to-Big-Toe Pose (Parivrtta Hasta Padangusthasana)",
+          "description": "Stand on one leg, lift the opposite knee towards your chest, and reach for the big toe with the opposite hand. Twist your torso towards the raised knee."
+        },
+        {
+          "name": "Sage's Twist (Marichyasana C)",
+          "description": "Sit on the mat with one leg extended and the other foot crossed over. Twist towards the bent knee, reaching the opposite arm around the leg and binding."
+        },
+        {
+          "name": "Revolved Lizard Pose (Parivrtta Utthan Pristhasana)",
+          "description": "From Lizard Pose, twist your torso towards the front leg, reaching one hand towards the ceiling. Keep your gaze upwards and hold the stretch."
+        },
+        {
+          "name": "Revolved Side Angle Pose (Parivrtta Parsvakonasana)",
+          "description": "From Warrior II, twist your torso towards the front leg, placing the opposite elbow on the outside of the knee. Reach the top arm towards the ceiling."
+        },
+        {
+          "name": "Revolved Seated Forward Bend (Parivrtta Paschimottanasana)",
+          "description": "Sit on the mat with legs extended. Twist your torso towards one leg, reaching the opposite arm around and binding. Fold forward for an added stretch."
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "muscle_group": "Advanced Full Body Flow",
+      "exercises": [
+        {
+          "name": "Advanced Sun Salutation",
+          "description": "A dynamic sequence of advanced yoga poses performed in a flowing manner. Includes challenging variations of Mountain Pose, Forward Fold, Plank, Downward-Facing Dog, and Cobra."
+        },
+        {
+          "name": "Warrior III (Virabhadrasana III) Variation",
+          "description": "From Warrior III, transition into a one-legged handstand. Engage your core and maintain balance. Return to Warrior III and switch legs."
+        },
+        {
+          "name": "Eight-Limbed Pose (Ashtavakrasana)",
+          "description": "Sit on the mat with legs extended. Lift your legs towards the ceiling and balance on your hands, crossing the ankles and bending the knees."
+        },
+        {
+          "name": "Scorpion Handstand",
+          "description": "Kick up into a handstand and lower one leg towards your head, arching your back. Engage your core and maintain balance. Switch legs and repeat."
+        },
+        {
+          "name": "Full Wheel Pose (Urdhva Dhanurasana)",
+          "description": "Lie on your back, bend your knees, place your hands by your shoulders, and lift your hips towards the ceiling. Straighten your arms and legs as much as possible."
+        }
+      ]
+    },
+    {
+        "day": 8,
+        "muscle_group": "Advanced Strength & Balance",
+        "exercises": [
+          {
+            "name": "One-Arm Peacock Pose (Ek Hasta Mayurasana)",
+            "description": "From Peacock Pose, lift one arm off the mat, balancing on the other hand. Keep your body parallel to the mat and engage your core for stability."
+          },
+          {
+            "name": "Side Crow Pose (Parsva Bakasana)",
+            "description": "From Crow Pose, twist your torso to one side, placing one knee on the outside of the opposite arm. Lift the opposite foot off the ground and balance on your hands."
+          },
+          {
+            "name": "Lotus Handstand",
+            "description": "From Handstand, transition into Lotus Pose by bringing one foot to rest on the opposite thigh. Engage your core and maintain balance in the inverted position."
+          },
+          {
+            "name": "Dragonfly Handstand",
+            "description": "Kick up into a handstand and extend your legs into a wide straddle position. Balance on your hands and engage your core for stability."
+          },
+          {
+            "name": "Feathered Peacock Pose (Pincha Mayurasana Variation)",
+            "description": "From Forearm Stand, bend one knee and reach the foot towards the head, creating a feathered peacock tail effect. Engage your core and maintain balance."
+          }
+        ]
+      },
+      {
+        "day": 9,
+        "muscle_group": "Advanced Flexibility & Backbends",
+        "exercises": [
+          {
+            "name": "Chin Stand (Ganda Bherundasana)",
+            "description": "From Downward-Facing Dog, lower your chin to the mat while lifting your feet towards the ceiling. Engage your core and arch your back for a deep backbend."
+          },
+          {
+            "name": "Scorpion Handstand Variation",
+            "description": "Kick up into a handstand and lower both legs towards your head, creating a scorpion tail effect. Engage your core and maintain balance in the inverted position."
+          },
+          {
+            "name": "King Dancer Pose (Natarajasana)",
+            "description": "Stand on one leg, reach back with one hand to hold the foot, and extend the opposite arm forward. Arch your back and lift the leg towards the ceiling."
+          },
+          {
+            "name": "Wild Thing Handstand",
+            "description": "From Handstand, flip your dog by dropping one foot to the floor behind you. Arch your back and reach the top arm overhead, maintaining balance on your hands."
+          },
+          {
+            "name": "Splits Handstand",
+            "description": "Kick up into a handstand and extend one leg towards the ceiling while keeping the other leg extended straight down. Engage your core and maintain balance."
+          }
+        ]
+      },
+      {
+        "day": 10,
+        "muscle_group": "Advanced Inversions",
+        "exercises": [
+          {
+            "name": "Hollowback Scorpion Pose",
+            "description": "Kick up into a handstand and arch your back, bringing both legs towards the floor behind you in a scorpion tail position. Engage your core and maintain balance."
+          },
+          {
+            "name": "One-Arm Handstand",
+            "description": "Kick up into a handstand and lift one arm off the mat, balancing on the other hand. Engage your core and maintain a straight line with your body."
+          },
+          {
+            "name": "Floating Scorpion Pose",
+            "description": "From Forearm Stand, lower both legs towards the floor behind you in a scorpion tail position. Engage your core and maintain balance on your forearms."
+          },
+          {
+            "name": "Shoulder Press Handstand",
+            "description": "Kick up into a handstand and lower both legs towards the floor in a pike position. Press back up to the handstand position, emphasizing shoulder strength."
+          },
+          {
+            "name": "Handstand Lotus Variation",
+            "description": "From Handstand, transition into Lotus Pose by bringing both feet to rest on the opposite thighs. Engage your core and maintain balance in the inverted position."
+          }
+        ]
+      },
+      {
+        "day": 11,
+        "muscle_group": "Advanced Core Strength",
+        "exercises": [
+          {
+            "name": "Advanced Dragonfly Pose",
+            "description": "Sit on the mat with legs wide apart. Lean forward and lift your legs off the ground, extending them straight out to the sides. Balance on your hands."
+          },
+          {
+            "name": "Tuck Planche Push-up",
+            "description": "From a push-up position, shift your weight forward, tuck your knees towards your chest, and lift your feet off the ground. Perform a push-up in this tucked position."
+          },
+          {
+            "name": "Full Front Lever",
+            "description": "Hang from a bar with an overhand grip and lift your body until it is parallel to the ground. Keep your body straight and engage your core in the front lever position."
+          },
+          {
+            "name": "Dragon Flag Press",
+            "description": "Lie on your back, hold onto a sturdy surface above your head, and lift your legs towards the ceiling. Lower them towards the floor with control, then press back up."
+          },
+          {
+            "name": "Straddle Planche",
+            "description": "From a planche position, open your legs into a straddle position while maintaining balance. Engage your core and hold the straddle planche position."
+          }
+        ]
+      },
+      {
+        "day": 12,
+        "muscle_group": "Advanced Hip Opening",
+        "exercises": [
+          {
+            "name": "Visvamitrasana Variation",
+            "description": "From Warrior II, reach one hand to the mat inside the front foot. Lift the back leg and reach the top arm overhead, creating a straight line from fingertips to toes."
+          },
+          {
+            "name": "Astavakrasana Variation",
+            "description": "Sit on the mat with one leg bent and the other extended straight out. Place your hands on the mat, lift your hips, and twist your torso, balancing on your hands."
+          },
+          {
+            "name": "Splits Handstand Variation",
+            "description": "Kick up into a handstand and extend one leg towards the ceiling while keeping the other leg extended straight down. Engage your core and maintain balance."
+          },
+          {
+            "name": "Cow Face Pose (Gomukhasana) Advanced Variation",
+            "description": "Sit on the mat with legs crossed. Reach both hands behind your back and clasp hands, lifting the arms towards the ceiling for an advanced variation."
+          },
+          {
+            "name": "Kasyapasana Advanced Variation",
+            "description": "Sit on the mat with one leg bent and the other extended straight out. Twist your torso towards the bent knee and bind your arms around the leg, balancing on your sit bones."
+          }
+        ]
+      },
+      {
+        "day": 13,
+        "muscle_group": "Advanced Twists & Detox",
+        "exercises": [
+          {
+            "name": "Twisted Crow Pose (Parsva Bakasana)",
+            "description": "From Crow Pose, twist your torso to one side, bringing one knee to the opposite elbow. Extend the other leg straight out to the side, maintaining balance on your hands."
+          },
+          {
+            "name": "Revolved Side Plank (Parivrtta Vasisthasana)",
+            "description": "From Side Plank, twist your torso towards the ceiling, reaching one arm overhead. Maintain balance on one hand and the outer edge of the foot."
+          },
+          {
+            "name": "Revolved Lizard Pose (Parivrtta Utthan Pristhasana) Advanced Variation",
+            "description": "From Lizard Pose, twist your torso towards the front leg, reaching one hand towards the ceiling. Keep your gaze upwards and hold the stretch for an advanced variation."
+          },
+          {
+            "name": "Revolved Side Angle Pose (Parivrtta Parsvakonasana) Advanced Variation",
+            "description": "From Warrior II, twist your torso towards the front leg, placing the opposite elbow on the outside of the knee. Reach the top arm towards the ceiling for an advanced variation."
+          },
+          {
+            "name": "Revolved Seated Forward Bend (Parivrtta Paschimottanasana) Advanced Variation",
+            "description": "Sit on the mat with legs extended. Twist your torso towards one leg, reaching the opposite arm around and binding. Fold forward for an added stretch in this advanced variation."
+          }
+        ]
+      },
+      {
+        "day": 14,
+        "muscle_group": "Advanced Full Body Flow",
+        "exercises": [
+          {
+            "name": "Advanced Sun Salutation Variation",
+            "description": "A dynamic sequence of advanced yoga poses performed in a flowing manner. Includes challenging variations of Mountain Pose, Forward Fold, Plank, Downward-Facing Dog, and Cobra."
+          },
+          {
+            "name": "Warrior III (Virabhadrasana III) Advanced Variation",
+            "description": "From Warrior III, transition into a one-legged handstand. Engage your core and maintain balance. Return to Warrior III and switch legs for an advanced variation."
+          },
+          {
+            "name": "Eight-Limbed Pose (Ashtavakrasana) Advanced Variation",
+            "description": "Sit on the mat with legs extended. Lift your legs towards the ceiling and balance on your hands, crossing the ankles and bending the knees in this advanced variation."
+          },
+          {
+            "name": "Scorpion Handstand Flow",
+            "description": "Kick up into a handstand and lower one leg towards your head, arching your back. Engage your core and maintain balance. Switch legs and repeat for a flowing sequence."
+          },
+          {
+            "name": "Full Wheel Pose (Urdhva Dhanurasana) Advanced Variation",
+            "description": "Lie on your back, bend your knees, place your hands by your shoulders, and lift your hips towards the ceiling. Straighten your arms and legs as much as possible in this advanced variation."
+          }
+        ]
+      },
+      {
+        "day": 15,
+        "muscle_group": "Advanced Strength & Balance",
+        "exercises": [
+          {
+            "name": "One-Legged Handstand Press",
+            "description": "Kick up into a handstand and lower one leg towards the floor in a controlled manner. Press back up to the handstand position using core strength and balance."
+          },
+          {
+            "name": "Firefly Pose Handstand",
+            "description": "From Handstand, transition into Firefly Pose by lowering both legs towards the floor and extending them forward. Engage your core and maintain balance in the inverted position."
+          },
+          {
+            "name": "Floating Lotus Handstand",
+            "description": "Kick up into a handstand and transition into Lotus Pose by bringing both feet to rest on the opposite thighs. Engage your core and maintain balance in this challenging variation."
+          },
+          {
+            "name": "Dragonfly Handstand Press",
+            "description": "Kick up into a handstand and extend your legs into a wide straddle position. Lower both legs towards the floor in a controlled manner using core strength."
+          },
+          {
+            "name": "Feathered Peacock Pose Handstand",
+            "description": "From Handstand, transition into Feathered Peacock Pose by bending one knee and reaching the foot towards the head. Engage your core and maintain balance in this advanced variation."
+          }
+        ]
+      },
+      {
+        "day": 16,
+        "muscle_group": "Advanced Flexibility & Backbends",
+        "exercises": [
+          {
+            "name": "Scorpion Handstand Press",
+            "description": "Kick up into a handstand and lower both legs towards your head, creating a scorpion tail effect. Press back up to the handstand position using core strength and flexibility."
+          },
+          {
+            "name": "King Pigeon Pose Handstand",
+            "description": "From Handstand, transition into King Pigeon Pose by bending one knee and reaching the foot towards the head. Arch your back and lift the foot higher for an advanced backbend."
+          },
+          {
+            "name": "Bird of Paradise Pose Handstand",
+            "description": "Kick up into a handstand and transition into Bird of Paradise Pose by holding the big toe with one hand. Extend the leg forward while maintaining balance on your hands."
+          },
+          {
+            "name": "Wild Thing Handstand Press",
+            "description": "Kick up into a handstand and transition into Wild Thing Pose by flipping your dog and reaching the top arm overhead. Press back up to the handstand position."
+          },
+          {
+            "name": "Splits Handstand Press",
+            "description": "Kick up into a handstand and extend one leg towards the ceiling while keeping the other leg extended straight down. Press the extended leg towards the ceiling using core strength."
+          }
+        ]
+      },
+      {
+        "day": 17,
+        "muscle_group": "Advanced Inversions",
+        "exercises": [
+          {
+            "name": "Hollowback Scorpion Handstand",
+            "description": "Kick up into a handstand and arch your back, bringing both legs towards the floor behind you in a scorpion tail position. Engage your core and maintain balance in this challenging inversion."
+          },
+          {
+            "name": "One-Arm Handstand Press",
+            "description": "Kick up into a handstand and lift one arm off the mat, balancing on the other hand. Press back up to the handstand position using core strength and shoulder stability."
+          },
+          {
+            "name": "Floating Scorpion Handstand",
+            "description": "From Forearm Stand, lower both legs towards the floor behind you in a scorpion tail position. Engage your core and maintain balance on your forearms in this advanced inversion."
+          },
+          {
+            "name": "Shoulder Press Handstand Variation",
+            "description": "Kick up into a handstand and lower both legs towards the floor in a pike position. Press back up to the handstand position, emphasizing shoulder strength and control."
+          },
+          {
+            "name": "Handstand Lotus Press",
+            "description": "From Handstand, transition into Lotus Pose by bringing both feet to rest on the opposite thighs. Press back up to the handstand position in this advanced lotus variation."
+          }
+        ]
+      },
+      {
+        "day": 18,
+        "muscle_group": "Advanced Core Strength",
+        "exercises": [
+          {
+            "name": "Advanced Dragonfly Pose Press",
+            "description": "Sit on the mat with legs wide apart. Lean forward and lift your legs off the ground, extending them straight out to the sides. Press the legs together using core strength."
+          },
+          {
+            "name": "Tuck Planche Push-up Variation",
+            "description": "From a push-up position, shift your weight forward, tuck your knees towards your chest, and lift your feet off the ground. Perform a push-up in this tucked planche position."
+          },
+          {
+            "name": "Full Front Lever Press",
+            "description": "Hang from a bar with an overhand grip and lift your body until it is parallel to the ground. Press the body up towards the bar using core strength and back lever control."
+          },
+          {
+            "name": "Dragon Flag Press",
+            "description": "Lie on your back, hold onto a sturdy surface above your head, and lift your legs towards the ceiling. Lower them towards the floor with control, then press back up using core strength."
+          },
+          {
+            "name": "Straddle Planche Press",
+            "description": "From a planche position, open your legs into a straddle position while maintaining balance. Press the body up to a handstand position using core strength and straddle control."
+          }
+        ]
+      },
+      {
+        "day": 19,
+        "muscle_group": "Advanced Hip Opening",
+        "exercises": [
+          {
+            "name": "Visvamitrasana Advanced Variation",
+            "description": "From Warrior II, reach one hand to the mat inside the front foot. Lift the back leg and reach the top arm overhead, creating a straight line from fingertips to toes in this advanced variation."
+          },
+          {
+            "name": "Astavakrasana Advanced Variation",
+            "description": "Sit on the mat with one leg bent and the other extended straight out. Place your hands on the mat, lift your hips, and twist your torso, balancing on your hands in this advanced variation."
+          },
+          {
+            "name": "Splits Handstand Press Variation",
+            "description": "Kick up into a handstand and extend one leg towards the ceiling while keeping the other leg extended straight down. Press the extended leg towards the ceiling in this advanced variation."
+          },
+          {
+            "name": "Cow Face Pose (Gomukhasana) Advanced Hip Opener",
+            "description": "Sit on the mat with legs crossed. Reach both hands behind your back and clasp hands, lifting the arms towards the ceiling for an advanced hip-opening variation."
+          },
+          {
+            "name": "Kasyapasana Advanced Hip Opener",
+            "description": "Sit on the mat with one leg bent and the other extended straight out. Twist your torso towards the bent knee and bind your arms around the leg, balancing on your sit bones in this advanced hip opener."
+          }
+        ]
+      },
+      {
+        "day": 20,
+        "muscle_group": "Advanced Twists & Detox",
+        "exercises": [
+          {
+            "name": "Twisted Crow Pose (Parsva Bakasana) Advanced Variation",
+            "description": "From Crow Pose, twist your torso to one side, bringing one knee to the opposite elbow. Extend the other leg straight out to the side, maintaining balance on your hands in this advanced variation."
+          },
+          {
+            "name": "Revolved Side Plank (Parivrtta Vasisthasana) Advanced Variation",
+            "description": "From Side Plank, twist your torso towards the ceiling, reaching one arm overhead. Maintain balance on one hand and the outer edge of the foot in this advanced variation."
+          },
+          {
+            "name": "Revolved Lizard Pose (Parivrtta Utthan Pristhasana) Advanced Variation",
+            "description": "From Lizard Pose, twist your torso towards the front leg, reaching one hand towards the ceiling. Keep your gaze upwards and hold the stretch for an advanced detox variation."
+          },
+          {
+            "name": "Revolved Side Angle Pose (Parivrtta Parsvakonasana) Advanced Detox",
+            "description": "From Warrior II, twist your torso towards the front leg, placing the opposite elbow on the outside of the knee. Reach the top arm towards the ceiling for an advanced detox variation."
+          },
+          {
+            "name": "Revolved Seated Forward Bend (Parivrtta Paschimottanasana) Advanced Detox Variation",
+            "description": "Sit on the mat with legs extended. Twist your torso towards one leg, reaching the opposite arm around and binding. Fold forward for an added detox stretch in this advanced variation."
+          }
+        ]
+      },
+      {
+        "day": 21,
+        "muscle_group": "Advanced Full Body Flow",
+        "exercises": [
+          {
+            "name": "Advanced Sun Salutation Detox Variation",
+            "description": "A dynamic sequence of advanced yoga poses performed in a flowing manner. Includes challenging variations of Mountain Pose, Forward Fold, Plank, Downward-Facing Dog, and Cobra for a full-body detox."
+          },
+          {
+            "name": "Warrior III (Virabhadrasana III) Detox Variation",
+            "description": "From Warrior III, transition into a one-legged handstand. Engage your core and maintain balance. Return to Warrior III and switch legs for a detoxifying variation."
+          },
+          {
+            "name": "Eight-Limbed Pose (Ashtavakrasana) Advanced Detox Variation",
+            "description": "Sit on the mat with legs extended. Lift your legs towards the ceiling and balance on your hands, crossing the ankles and bending the knees in this advanced detox variation."
+          },
+          {
+            "name": "Scorpion Handstand Detox Flow",
+            "description": "Kick up into a handstand and lower one leg towards your head, arching your back. Engage your core and maintain balance. Switch legs and repeat for a flowing detox sequence."
+          },
+          {
+            "name": "Full Wheel Pose (Urdhva Dhanurasana) Advanced Detox Variation",
+            "description": "Lie on your back, bend your knees, place your hands by your shoulders, and lift your hips towards the ceiling. Straighten your arms and legs as much as possible in this advanced detox variation."
+          }
+        ]
+      },
+      {
+        "day": 22,
+        "muscle_group": "Advanced Strength & Balance",
+        "exercises": [
+          {
+            "name": "One-Legged Handstand Press Variation",
+            "description": "Kick up into a handstand and lower one leg towards the floor in a controlled manner. Press back up to the handstand position using core strength and balance in this challenging variation."
+          },
+          {
+            "name": "Firefly Pose Handstand Press",
+            "description": "From Handstand, transition into Firefly Pose by lowering both legs towards the floor and extending them forward. Engage your core and maintain balance in the inverted position."
+          },
+          {
+            "name": "Floating Lotus Handstand Variation",
+            "description": "Kick up into a handstand and transition into Lotus Pose by bringing both feet to rest on the opposite thighs. Engage your core and maintain balance in this advanced variation."
+          },
+          {
+            "name": "Dragonfly Handstand Press Variation",
+            "description": "Kick up into a handstand and extend your legs into a wide straddle position. Lower both legs towards the floor in a controlled manner using core strength."
+          },
+          {
+            "name": "Feathered Peacock Pose Handstand Variation",
+            "description": "From Handstand, transition into Feathered Peacock Pose by bending one knee and reaching the foot towards the head. Engage your core and maintain balance in this advanced variation."
+          }
+        ]
+      },
+      {
+        "day": 23,
+        "muscle_group": "Advanced Flexibility & Backbends",
+        "exercises": [
+          {
+            "name": "Scorpion Handstand Press Variation",
+            "description": "Kick up into a handstand and lower both legs towards your head, creating a scorpion tail effect. Press back up to the handstand position using core strength and flexibility."
+          },
+          {
+            "name": "King Pigeon Pose Handstand Variation",
+            "description": "From Handstand, transition into King Pigeon Pose by bending one knee and reaching the foot towards the head. Arch your back and lift the foot higher for an advanced backbend."
+          },
+          {
+            "name": "Bird of Paradise Pose Handstand Variation",
+            "description": "Kick up into a handstand and transition into Bird of Paradise Pose by holding the big toe with one hand. Extend the leg forward while maintaining balance on your hands."
+          },
+          {
+            "name": "Wild Thing Handstand Press Variation",
+            "description": "Kick up into a handstand and transition into Wild Thing Pose by flipping your dog and reaching the top arm overhead. Press back up to the handstand position."
+          },
+          {
+            "name": "Splits Handstand Press Variation",
+            "description": "Kick up into a handstand and extend one leg towards the ceiling while keeping the other leg extended straight down. Press the extended leg towards the ceiling using core strength."
+          }
+        ]
+      },
+      {
+        "day": 24,
+        "muscle_group": "Advanced Inversions",
+        "exercises": [
+          {
+            "name": "Hollowback Scorpion Handstand Variation",
+            "description": "Kick up into a handstand and arch your back, bringing both legs towards the floor behind you in a scorpion tail position. Engage your core and maintain balance in this challenging inversion."
+          },
+          {
+            "name": "One-Arm Handstand Press Variation",
+            "description": "Kick up into a handstand and lift one arm off the mat, balancing on the other hand. Press back up to the handstand position using core strength and shoulder stability."
+          },
+          {
+            "name": "Floating Scorpion Handstand Variation",
+            "description": "From Forearm Stand, lower both legs towards the floor behind you in a scorpion tail position. Engage your core and maintain balance on your forearms in this advanced inversion."
+          },
+          {
+            "name": "Shoulder Press Handstand Detox Variation",
+            "description": "Kick up into a handstand and lower both legs towards the floor in a pike position. Press back up to the handstand position, emphasizing shoulder strength and control."
+          },
+          {
+            "name": "Handstand Lotus Press Variation",
+            "description": "From Handstand, transition into Lotus Pose by bringing both feet to rest on the opposite thighs. Press back up to the handstand position in this advanced lotus variation."
+          }
+        ]
+      },
+      {
+        "day": 25,
+        "muscle_group": "Advanced Core Strength",
+        "exercises": [
+          {
+            "name": "Advanced Dragonfly Pose Press Variation",
+            "description": "Sit on the mat with legs wide apart. Lean forward and lift your legs off the ground, extending them straight out to the sides. Press the legs together using core strength."
+          },
+          {
+            "name": "Tuck Planche Push-up Variation",
+            "description": "From a push-up position, shift your weight forward, tuck your knees towards your chest, and lift your feet off the ground. Perform a push-up in this tucked planche position."
+          },
+          {
+            "name": "Full Front Lever Press Variation",
+            "description": "Hang from a bar with an overhand grip and lift your body until it is parallel to the ground. Press the body up towards the bar using core strength and back lever control."
+          },
+          {
+            "name": "Dragon Flag Press Variation",
+            "description": "Lie on your back, hold onto a sturdy surface above your head, and lift your legs towards the ceiling. Lower them towards the floor with control, then press back up using core strength."
+          },
+          {
+            "name": "Straddle Planche Press Variation",
+            "description": "From a planche position, open your legs into a straddle position while maintaining balance. Press the body up to a handstand position using core strength and straddle control."
+          }
+        ]
+      },
+      {
+        "day": 26,
+        "muscle_group": "Advanced Hip Opening",
+        "exercises": [
+          {
+            "name": "Visvamitrasana Advanced Variation",
+            "description": "From Warrior II, reach one hand to the mat inside the front foot. Lift the back leg and reach the top arm overhead, creating a straight line from fingertips to toes in this advanced variation."
+          },
+          {
+            "name": "Astavakrasana Advanced Variation",
+            "description": "Sit on the mat with one leg bent and the other extended straight out. Place your hands on the mat, lift your hips, and twist your torso, balancing on your hands in this advanced variation."
+          },
+          {
+            "name": "Splits Handstand Press Variation",
+            "description": "Kick up into a handstand and extend one leg towards the ceiling while keeping the other leg extended straight down. Press the extended leg towards the ceiling in this advanced variation."
+          },
+          {
+            "name": "Cow Face Pose (Gomukhasana) Advanced Hip Opener Variation",
+            "description": "Sit on the mat with legs crossed. Reach both hands behind your back and clasp hands, lifting the arms towards the ceiling for an advanced hip-opening variation."
+          },
+          {
+            "name": "Kasyapasana Advanced Hip Opener Variation",
+            "description": "Sit on the mat with one leg bent and the other extended straight out. Twist your torso towards the bent knee and bind your arms around the leg, balancing on your sit bones in this advanced hip opener."
+          }
+        ]
+      },
+      {
+        "day": 27,
+        "muscle_group": "Advanced Twists & Detox",
+        "exercises": [
+          {
+            "name": "Twisted Crow Pose (Parsva Bakasana) Advanced Variation",
+            "description": "From Crow Pose, twist your torso to one side, bringing one knee to the opposite elbow. Extend the other leg straight out to the side, maintaining balance on your hands in this advanced variation."
+          },
+          {
+            "name": "Revolved Side Plank (Parivrtta Vasisthasana) Advanced Variation",
+            "description": "From Side Plank, twist your torso towards the ceiling, reaching one arm overhead. Maintain balance on one hand and the outer edge of the foot in this advanced variation."
+          },
+          {
+            "name": "Revolved Lizard Pose (Parivrtta Utthan Pristhasana) Advanced Variation",
+            "description": "From Lizard Pose, twist your torso towards the front leg, reaching one hand towards the ceiling. Keep your gaze upwards and hold the stretch for an advanced detox variation."
+          },
+          {
+            "name": "Revolved Side Angle Pose (Parivrtta Parsvakonasana) Advanced Detox Variation",
+            "description": "From Warrior II, twist your torso towards the front leg, placing the opposite elbow on the outside of the knee. Reach the top arm towards the ceiling for an advanced detox variation."
+          },
+          {
+            "name": "Revolved Seated Forward Bend (Parivrtta Paschimottanasana) Advanced Detox Variation",
+            "description": "Sit on the mat with legs extended. Twist your torso towards one leg, reaching the opposite arm around and binding. Fold forward for an added detox stretch in this advanced variation."
+          }
+        ]
+      },
+      {
+        "day": 28,
+        "muscle_group": "Advanced Full Body Flow",
+        "exercises": [
+          {
+            "name": "Advanced Sun Salutation Detox Variation",
+            "description": "A dynamic sequence of advanced yoga poses performed in a flowing manner. Includes challenging variations of Mountain Pose, Forward Fold, Plank, Downward-Facing Dog, and Cobra for a full-body detox."
+          },
+          {
+            "name": "Warrior III (Virabhadrasana III) Detox Variation",
+            "description": "From Warrior III, transition into a one-legged handstand. Engage your core and maintain balance. Return to Warrior III and switch legs for a detoxifying variation."
+          },
+          {
+            "name": "Eight-Limbed Pose (Ashtavakrasana) Advanced Detox Variation",
+            "description": "Sit on the mat with legs extended. Lift your legs towards the ceiling and balance on your hands, crossing the ankles and bending the knees in this advanced detox variation."
+          },
+          {
+            "name": "Scorpion Handstand Detox Flow",
+            "description": "Kick up into a handstand and lower one leg towards your head, arching your back. Engage your core and maintain balance. Switch legs and repeat for a flowing detox sequence."
+          },
+          {
+            "name": "Full Wheel Pose (Urdhva Dhanurasana) Advanced Detox Variation",
+            "description": "Lie on your back, bend your knees, place your hands by your shoulders, and lift your hips towards the ceiling. Straighten your arms and legs as much as possible in this advanced detox variation."
+          }
+        ]
+      }
+  ]
