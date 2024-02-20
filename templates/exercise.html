@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Routine</title>
+    <style>
+        body{
+            background-color: #e1f4f0;
+        }
+        .day {
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding:20px;
+            margin: 20px;
+            box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+            background-color: #f8f8f6;
+            line-height: 0.5;
+        }
+
+        .exercise-list {
+            display: none;
+            list-style-type: none;
+            padding: 10px;
+            background-color: #f8f8f6;
+            margin:20px;
+            line-height: 1;
+        }
+
+        .exercise-item {
+            margin: 5px;
+            border: solid black;
+        }
+    </style>
+</head>
+<body>
+
+<div id="routine-container"></div>
+
+<script>
+    // Function to fetch and display the exercise routine
+    async function fetchExerciseRoutine() {
+        try {
+            const response = await fetch('../exercises/intermediate.json'); // Replace with the actual path to your JSON file
+            const data = await response.json();
+
+            const routineContainer = document.getElementById('routine-container');
+
+            data.forEach(day => {
+                const dayDiv = document.createElement('div');
+                dayDiv.classList.add('day');
+                dayDiv.innerHTML = `<h2>Day ${day.day}:</h2><h3>Target:<h3> ${day.muscle_group}`;
+                dayDiv.addEventListener('click', () => toggleExerciseList(dayDiv, day.exercises));
+
+                routineContainer.appendChild(dayDiv);
+
+                const exerciseList = document.createElement('ul');
+                exerciseList.classList.add('exercise-list');
+
+                day.exercises.forEach(exercise => {
+                    const exerciseItem = document.createElement('li');
+                    exerciseItem.classList.add('exercise-item');
+                    exerciseItem.innerHTML = `<input type="checkbox" id="${exercise.name}"><h4>${exercise.name}</h4></input>
+                                              <label for="${exercise.name}">${exercise.description}<br>Sets: ${exercise.sets}</label>`;
+                    exerciseList.appendChild(exerciseItem);
+                });
+
+                routineContainer.appendChild(exerciseList);
+            });
+        } catch (error) {
+            console.error('Error fetching exercise routine:', error);
+        }
+    }
+
+    // Function to toggle the display of the exercise list
+    function toggleExerciseList(dayDiv, exerciseList) {
+        const list = dayDiv.nextElementSibling;
+        list.style.display = (list.style.display === 'none') ? 'block' : 'none';
+    }
+
+    // Fetch and display the exercise routine when the page loads
+    document.addEventListener('DOMContentLoaded', fetchExerciseRoutine);
+</script>
+
+</body>
+</html>
