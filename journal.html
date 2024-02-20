@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="journal.css">
+    <title>Styled Text Editor</title>
+
+</head>
+<body>
+
+    <div id="formatting-controls">
+        <select onchange="changeFontStyle()">
+            <option value="Arial, sans-serif">Arial</option>
+            <option value="'Courier New', Courier, monospace">Courier New</option>
+            <option value="Georgia, serif">Georgia</option>
+            <option value="Verdana, sans-serif">Verdana</option>
+        </select>
+        
+        <select onchange="changeFontSize()">
+            <option value="14px">14px</option>
+            <option value="16px">16px</option>
+            <option value="18px">18px</option>
+            <option value="20px">20px</option>
+        </select>
+        
+        <input type="color" id="colorPicker" onchange="changeFontColor()">
+        
+        <button onclick="toggleBold()"><img src="journal_icons/bold.png" src="journal-icons"></button>
+        <button onclick="toggleItalic()"><img src="journal_icons/italic.png" src="journal-icons"></button>
+    </div>
+    
+    <div class="journal-section">
+        <div class="binder">
+            <img src="journal_icons/binderFinal.png">
+        </div>
+        <!-- <div class="journal-page">
+            <textarea class="page-type" placeholder="Type Something.." ></textarea>
+        </div> -->
+    </div>
+    
+    <button id="saveButton" onclick="saveJournal()">Save Journal</button>
+
+    <script>
+        function saveJournal() {
+            var editorContent = document.getElementById('editor').value;
+            localStorage.setItem('journalContent', editorContent);
+            alert('Journal saved successfully!');
+        }
+
+        window.onload = function () {
+            var savedContent = localStorage.getItem('journalContent');
+            if (savedContent) {
+                document.getElementById('editor').value = savedContent;
+            }
+        };
+
+        function changeFontColor() {
+            var color = document.getElementById('colorPicker').value;
+            document.getElementById('editor').style.color = color;
+        }
+
+        function toggleBold() {
+            var editor = document.getElementById('editor');
+            editor.style.fontWeight = (editor.style.fontWeight === 'bold') ? 'normal' : 'bold';
+        }
+
+        function toggleItalic() {
+            var editor = document.getElementById('editor');
+            editor.style.fontStyle = (editor.style.fontStyle === 'italic') ? 'normal' : 'italic';
+        }
+
+        function changeFontStyle() {
+            var style = document.querySelector('select:nth-of-type(1)').value;
+            document.getElementById('editor').style.fontFamily = style;
+        }
+
+        function changeFontSize() {
+            var size = document.querySelector('select:nth-of-type(2)').value;
+            document.getElementById('editor').style.fontSize = size;
+        }
+    </script>
+
+</body>
+</html>
