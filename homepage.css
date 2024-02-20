@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style:normal;
+  
+  }
+  .navbar {
+    background-color: #E1F4F0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align elements to the left and right */
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 10px; /* Add spacing between navigation links */
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+  justify-content: flex-start;
+    width: 30px; /* Adjust width of logo image */
+    height: 30px; /* Maintain aspect ratio */
+}
+
+  .main {
+    display:flex;
+    background-color:#9EC6BD;
+    color:black;
+    padding: 20px 0; /* Add padding to create space around the navbar */
+    text-align: center;
+    justify-content: flex-start; /* Align navbar items at the center */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin: 0 10px; /* Add margin around each navbar item */
+  }
+  
+  .nav-links li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+    font-size: 110%; 
+    margin-bottom: 10px; 
+  }
+  .nav-links li img {
+    width: 100px; 
+    height: 100px;
+    display: block; 
+    
+}
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .intro {
+    text-align: center;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+}
+
+.intro p {
+    font-size: 18px; /* Adjust as needed */
+    line-height: 1.6; /* Adjust line height for readability */
+    color: #333; /* Adjust text color */
+}
+
+/* Animation */
+.intro p {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+  .mood{
+    text-align:center;
+  }
+  .mood img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add spacing between images */
+}
+.container {
+    padding: 20px;
+  }
+  
+  /* Styling for the cards */
+  .feature-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .feature-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  /* Styling for card title */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Styling for card text */
+  .card-text {
+    color: #666;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .feature-card {
+      margin-bottom: 20px;
+    }
+  }
+  
