@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise Routine</title>
     <style>
-        body{
+        body {
             background-color: #e1f4f0;
+            margin: 0;
+            overflow-x: hidden; 
         }
+        .day-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px; 
+        }
+
         .day {
-            margin-bottom: 10px;
             cursor: pointer;
-            padding:20px;
-            margin: 20px;
+            flex: 0 0 calc(33.333% - 20px); 
+            margin: 10px;
+            padding: 20px;
             box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
             background-color: #f8f8f6;
-            line-height: 0.5;
+            box-sizing: border-box; 
+            text-align: center;
+            border-radius: 20px;
+            height: 200px;
         }
 
         .exercise-list {
@@ -23,64 +36,130 @@
             list-style-type: none;
             padding: 10px;
             background-color: #f8f8f6;
-            margin:20px;
-            line-height: 1;
+            margin: 20px;
         }
 
         .exercise-item {
             margin: 5px;
             border: solid black;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .checklist-input {
+            margin-right: 10px;
+            font-size: 20px; 
+        }
+
+        #right-section {
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 0;
+            background-color: #f8f8f6;
+            overflow-y: scroll;
+            transition: width 0.5s; 
+        }
+
+        .back-button {
+            cursor: pointer;
+            display: block;
+            margin: 10px;
+            padding: 5px;
+            background-color: #aac7d8;
+            color: #ffffff;
+            text-align: center;
+            width: 70px;
+        }
+
+        .right-section-heading {
+            text-align: center;
+        }
+
+        .exercise-details {
+            flex: 1;
         }
     </style>
 </head>
+
 <body>
 
-<div id="routine-container"></div>
+    <div id="routine-container" class="day-container"></div>
 
-<script>
-    // Function to fetch and display the exercise routine
-    async function fetchExerciseRoutine() {
-        try {
-            const response = await fetch('../exercises/intermediate.json'); // Replace with the actual path to your JSON file
-            const data = await response.json();
+    <div id="right-section">
+        <span class="back-button" onclick="toggleExerciseList(null)">Back</span>
+        <h2 class="right-section-heading"></h2>
+        <ul id="exercise-list" class="exercise-list"></ul>
+    </div>
 
-            const routineContainer = document.getElementById('routine-container');
+    <script>
+        // Function to fetch and display the exercise routine
+        async function fetchExerciseRoutine() {
+            try {
+                const response = await fetch('../exercises/intermediate.json'); // Replace with the actual path to your JSON file
+                const data = await response.json();
 
-            data.forEach(day => {
-                const dayDiv = document.createElement('div');
-                dayDiv.classList.add('day');
-                dayDiv.innerHTML = `<h2>Day ${day.day}:</h2><h3>Target:<h3> ${day.muscle_group}`;
-                dayDiv.addEventListener('click', () => toggleExerciseList(dayDiv, day.exercises));
+                const routineContainer = document.getElementById('routine-container');
 
-                routineContainer.appendChild(dayDiv);
+                data.forEach(day => {
+                    const dayDiv = document.createElement('div');
+                    dayDiv.classList.add('day');
+                    dayDiv.innerHTML = `<h2>Day ${day.day}:</h2><h3>Target:<h3> ${day.muscle_group}`;
+                    dayDiv.addEventListener('click', () => toggleExerciseList(day));
 
-                const exerciseList = document.createElement('ul');
-                exerciseList.classList.add('exercise-list');
+                    routineContainer.appendChild(dayDiv);
+                });
+            } catch (error) {
+                console.error('Error fetching exercise routine:', error);
+            }
+        }
+
+        function toggleExerciseList(day) {
+            const rightSection = document.getElementById('right-section');
+            const exerciseList = document.getElementById('exercise-list');
+
+            if (day) {
+                document.querySelector('.right-section-heading').textContent = `Day ${day.day}`;
+                exerciseList.style.display = 'block';
+                exerciseList.innerHTML = ''; // Clear previous content
 
                 day.exercises.forEach(exercise => {
                     const exerciseItem = document.createElement('li');
                     exerciseItem.classList.add('exercise-item');
-                    exerciseItem.innerHTML = `<input type="checkbox" id="${exercise.name}"><h4>${exercise.name}</h4></input>
-                                              <label for="${exercise.name}">${exercise.description}<br>Sets: ${exercise.sets}</label>`;
+
+                    // Create input for checklist
+                    const checklistInput = document.createElement('input');
+                    checklistInput.type = 'checkbox';
+                    checklistInput.id = exercise.name;
+                    checklistInput.classList.add('checklist-input');
+
+                    // Create details to the right of the checklist
+                    const exerciseDetails = document.createElement('div');
+                    exerciseDetails.classList.add('exercise-details');
+                    exerciseDetails.innerHTML = `<label for="${exercise.name}"><h4>${exercise.name}</h4>
+                                                <p>${exercise.description}</p>
+                                                <p>Sets: ${exercise.sets}</p></label>`;
+
+                    // Append checklist and details to the exercise item
+                    exerciseItem.appendChild(checklistInput);
+                    exerciseItem.appendChild(exerciseDetails);
+
                     exerciseList.appendChild(exerciseItem);
                 });
 
-                routineContainer.appendChild(exerciseList);
-            });
-        } catch (error) {
-            console.error('Error fetching exercise routine:', error);
+                rightSection.style.width = '100%';
+            } else {
+                exerciseList.style.display = 'none';
+                rightSection.style.width = '0';
+            }
         }
-    }
 
-    // Function to toggle the display of the exercise list
-    function toggleExerciseList(dayDiv, exerciseList) {
-        const list = dayDiv.nextElementSibling;
-        list.style.display = (list.style.display === 'none') ? 'block' : 'none';
-    }
-
-    // Fetch and display the exercise routine when the page loads
-    document.addEventListener('DOMContentLoaded', fetchExerciseRoutine);
-</script>
+        // Fetch and display the exercise routine when the page loads
+        document.addEventListener('DOMContentLoaded', fetchExerciseRoutine);
+    </script>
 
 </body>
+
 </html>
