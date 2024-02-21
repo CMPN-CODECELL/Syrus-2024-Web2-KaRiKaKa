@@ -37,6 +37,10 @@ def petPage():
 def registerPage():
     return render_template('registerPage.html')
 
+@app.route('/forumPage')
+def forumPage():
+    return render_template('forumPage.html')
+
 @app.route('/loginPage')
 def loginPage():
     return render_template('loginPage.html')
