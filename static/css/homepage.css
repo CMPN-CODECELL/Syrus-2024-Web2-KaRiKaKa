@@ -5,8 +5,16 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  position:relative;
 }
-
+.Pet{
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  width:100px;
+  height:auto;
+  z-index: 9999;
+}
 .navbar {
   background-color: #E1F4F0;
   color: black;
