@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__, template_folder='templates', static_url_path='/static')
 
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key="AIzaSyD7ZDyv5giJ-vw26Im0fvAD6to_b2qCZJA")
 model = genai.GenerativeModel("gemini-pro")
 
 conversation_history_file = "conversation_history.json"

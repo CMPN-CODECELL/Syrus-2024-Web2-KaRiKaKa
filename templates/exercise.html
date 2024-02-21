@@ -92,17 +92,17 @@
 <body>
     <nav class="main">
         <ul class="nav-links">
-          <li><a href="#">Fitness</a></li>
-          <li><a href="#">Diet</a></li>
-          <li><a href="#">Games</a></li>
-          <li><a href="#">Forum</a></li>
+            <li><a href="{{ url_for('fitness')}}">Fitness</a></li>
+            <li><a href="{{ url_for('journal')}}">Journal</a></li>
+            <li><a href="{{ url_for('games')}}">Games</a></li>
+            <li><a href="#">Forum</a></li>
     
         </ul>
       </nav>
     <div id="routine-container" class="day-container"></div>
 
     <div id="right-section">
-        <img src="{{ url_for('static', filename='icons/arrow-square-left_6407326.png') }}" class="back-button onclick="toggleExerciseList(null)">
+    <a href="{{ url_for('fitness') }}"><img src="{{ url_for('static', filename='icons/arrow-square-left_6407326.png') }}" class="back-button onclick="toggleExerciseList(null)"></a>
         <!-- <button class="back-button" onclick="toggleExerciseList(null)">Back</button> -->
         <h2 class="right-section-heading"></h2>
         <ul id="exercise-list" class="exercise-list"></ul>
