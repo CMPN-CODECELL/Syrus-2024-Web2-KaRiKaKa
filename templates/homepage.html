@@ -15,8 +15,10 @@
 
 <body>
   
-  <img src="{{ url_for('static', filename='homepage_icons/Pet.jpg') }}" alt="Logo" class="Pet">
-  
+  <button class="Pet">
+    <img src="{{ url_for('static', filename='homepage_icons/Pet.jpg') }}" alt="Logo">
+</button>
+
   <nav class="navbar">
     <div class="logo">
       <img src="{{ url_for('static', filename='homepage_icons/logo.png') }}" alt="Logo">
@@ -231,11 +233,11 @@
             </div>
           </div>
 
-          <div class="back-btn-wrap">
+          <!-- <div class="back-btn-wrap">
             <a href="#" class="back-btn">
               <i class="fas fa-chevron-up"></i>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
