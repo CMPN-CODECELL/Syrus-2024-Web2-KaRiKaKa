@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const recentPosts = document.getElementById('recent-posts');
 
     recentPosts.addEventListener('click', function() {
-        fetch('try.json')
+        fetch('/static/exercises/try.json')
         .then(response => response.json())
         .then(posts => {
             const postsContainer = document.getElementById('posts-container');

@@ -10,18 +10,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+  <link rel="stylesheet" href="homepage(n).css">
 </head>
 
 <body>
-  
-  <button class="Pet" onClick="redirectToPetPage()">
-    <img src="{{ url_for('static', filename='homepage_icons/Pet.jpg') }}" alt="Logo">
-</button>
 
   <nav class="navbar">
     <div class="logo">
-      <img src="{{ url_for('static', filename='homepage_icons/logo.png') }}" alt="Logo">
+      <img src="logo.png" alt="Logo">
     </div>
     <ul class="nav-links">
       <li><a href="#">Get Help</a></li>
@@ -33,17 +29,18 @@
   </nav>
   <nav class="main">
     <ul class="nav-links">
-      <li><a href="{{ url_for('fitness')}}">Fitness</a></li>
-      <li><a href="{{ url_for('journal')}}">Journal</a></li>
-      <li><a href="{{ url_for('games')}}">Games</a></li>
-      <li><a href="{{ url_for('forumPage')}}">Forum</a></li>
+      <li><a href="#">Fitness</a></li>
+      <li><a href="#">Diet</a></li>
+      <li><a href="#">Games</a></li>
+      <li><a href="#">Forum</a></li>
       <div class="login-signup">
-        <button class="login-btn" onclick="redirectToLoginPage()">Login</button>
-        <button class="signup-btn" onclick="redirectToRegisterPage()">Sign Up</button>
+        <button class="login-btn">Login</button>
+        <button class="signup-btn">Sign Up</button>
 
     </ul>
-  </nav>
 
+
+  </nav>
   <div class="intro">
 
     <p>
@@ -56,11 +53,11 @@
 
   <div class="mood">
     <h1>How are You Feeling?</h1>
-    <img src="{{ url_for('static', filename='icons/veryhappy.png') }}" alt="Happy">
-    <img src="{{ url_for('static', filename='icons/satisfied.png') }}" alt="Sad">
-    <img src="{{ url_for('static', filename='icons/feelinggray.png') }}" alt="Sad">
-    <img src="{{ url_for('static', filename='icons/angry.png') }}" alt="Sad">
-    <img src="{{ url_for('static', filename='icons/verysad.png') }}" alt="Sad">
+    <img src="icons/veryhappy.png" alt="Happy">
+    <img src="/icons/satisfied.png" alt="Sad">
+    <img src="/icons/feelinggray.png" alt="Sad">
+    <img src="/icons/angry.png" alt="Sad">
+    <img src="icons/verysad.png" alt="Sad">
 
 
   </div>
@@ -71,8 +68,7 @@
         <div class="card feature-card">
           <div class="card-body">
             <h5 class="card-title">
-              <img src="{{ url_for('static', filename='homepage_icons/journal2.jpg') }}" alt="Journal Icon"
-                class="icon">
+              <img src="icons\journal2.jpg" alt="Journal Icon" class="icon">
               Personalized Journaling
             </h5>
             <p class="card-text">
@@ -86,8 +82,7 @@
           <div class="card feature-card">
             <div class="card-body">
               <h5 class="card-title">
-                <img src="{{ url_for('static', filename='homepage_icons/fitness2.jpg') }}" alt="Journal Icon"
-                  class="icon">
+                <img src="icons\fitness2.jpg" alt="Journal Icon" class="icon">
                 <h5 class="card-title">Fitness Routines</h5>
                 <p class="card-text">Elevate your well-being with our fitness routines designed to invigorate your mind,
                   body, and soul. From energizing workouts to soothing stretches, discover personalized exercises
@@ -100,8 +95,7 @@
           <div class="card feature-card">
             <div class="card-body">
               <h5 class="card-title">
-                <img src="{{ url_for('static', filename='homepage_icons/games2.jpg') }}" alt="Journal Icon"
-                  class="icon">
+                <img src="icons\games2.jpg" alt="Journal Icon" class="icon">
                 <div class="card-body">
                   <h5 class="card-title">Games to Refresh</h5>
                   <p class="card-text">Dive into a world of joy and relaxation with our collection of therapeutic games.
@@ -116,8 +110,7 @@
             <div class="card feature-card">
               <div class="card-body">
                 <h5 class="card-title">
-                  <img src="{{ url_for('static', filename='homepage_icons/forum2.jpg') }}" alt="Journal Icon"
-                    class="icon">
+                  <img src="icons\forum2.jpg" alt="Journal Icon" class="icon">
                   <h5 class="card-title">Community Forum</h5>
                   <p class="card-text">Join our vibrant online community where support, understanding, and inspiration
                     thrive. Engage in meaningful conversations, share experiences, and offer encouragement in a
@@ -131,8 +124,7 @@
             <div class="card feature-card">
               <div class="card-body">
                 <h5 class="card-title">
-                  <img src="{{ url_for('static', filename='homepage_icons/pet2.jpg') }}" alt="Journal Icon"
-                    class="icon">
+                  <img src="icons\pet2.jpg" alt="Journal Icon" class="icon">
                   <h5 class="card-title">Virtual Pet Companion</h5>
                   <p class="card-text">Experience the joy of companionship with our virtual pet adoption feature.
                     Nurture and bond with your digital companion, fostering a sense of responsibility, love, and
@@ -237,29 +229,15 @@
             </div>
           </div>
 
-          <!-- <div class="back-btn-wrap">
+          <div class="back-btn-wrap">
             <a href="#" class="back-btn">
               <i class="fas fa-chevron-up"></i>
             </a>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
   </footer>
-  <script>
-    function redirectToLoginPage() {
-        // Use window.location.href to navigate to the desired page
-        window.location.href = "{{ url_for('loginPage') }}";
-    }
-    function redirectToRegisterPage() {
-        // Use window.location.href to navigate to the desired page
-        window.location.href = "{{ url_for('registerPage') }}";
-    }
-    function redirectToPetPage() {
-        // Use window.location.href to navigate to the desired page
-        window.location.href = "{{ url_for('petPage') }}";
-    }
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./js/isotope.pkgd.min.js"></script>

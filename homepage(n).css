@@ -5,34 +5,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  position:relative;
-}
-.Pet {
-  position: fixed;
-  bottom: 10px; /* Adjust this value to your preference */
-  right: 10px; /* Adjust this value to your preference */
-  width: 100px; /* Adjust the width of the button */
-  height: auto; /* Maintain aspect ratio */
-  border: none; /* Remove border */
-  background: none; /* Remove background */
-  padding: 0; /* Remove padding */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  
 }
 
-.Pet img {
-  border-radius: 50%;
-  width: 100%; /* Make the image fill the button */
-  height: auto; /* Maintain aspect ratio */
-}
-/* .Pet{
-  position:absolute;
-  bottom:10px;
-  right:10px;
-  width:100px;
-  height:auto;
-  z-index: 9999;
-} */
 .navbar {
   background-color: #E1F4F0;
   color: black;
