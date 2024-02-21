@@ -10,14 +10,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../homepage.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
 </head>
 
 <body>
 
   <nav class="navbar">
     <div class="logo">
-      <img class="logo-image" src="../logo.png" alt="Logo">
+      <img src="{{ url_for('static', filename='homepage_icons/logo.png') }}" alt="Logo">
     </div>
     <ul class="nav-links">
       <li><a href="#">Get Help</a></li>
@@ -29,13 +29,13 @@
   </nav>
   <nav class="main">
     <ul class="nav-links">
-      <li><a href="#">Fitness</a></li>
-      <li><a href="#">Diet</a></li>
-      <li><a href="#">Games</a></li>
+      <li><a href="{{ url_for('fitness')}}">Fitness</a></li>
+      <li><a href="{{ url_for('journal')}}">Journal</a></li>
+      <li><a href="{{ url_for('games')}}">Games</a></li>
       <li><a href="#">Forum</a></li>
       <div class="login-signup">
-        <button class="login-btn">Login</button>
-        <button class="signup-btn">Sign Up</button>
+        <button class="login-btn"><a href="{{ url_for('loginPage')}}">Login</a></button>
+        <button class="signup-btn"><a href="{{ url_for('registerPage')}}">Sign Up</a></button>
 
     </ul>
 
@@ -53,11 +53,11 @@
 
   <div class="mood">
     <h1>How are You Feeling?</h1>
-    <img src="/icons/veryhappy.png" alt="Happy">
-    <img src="/icons/satisfied.png" alt="Sad">
-    <img src="/icons/feelinggray.png" alt="Sad">
-    <img src="/icons/angry.png" alt="Sad">
-    <img src="../icons/verysad.png" alt="Sad">
+    <img src="{{ url_for('static', filename='icons/veryhappy.png') }}" alt="Happy">
+    <img src="{{ url_for('static', filename='icons/satisfied.png') }}" alt="Sad">
+    <img src="{{ url_for('static', filename='icons/feelinggray.png') }}" alt="Sad">
+    <img src="{{ url_for('static', filename='icons/angry.png') }}" alt="Sad">
+    <img src="{{ url_for('static', filename='icons/verysad.png') }}" alt="Sad">
 
 
   </div>
@@ -67,78 +67,76 @@
       <div class="col-md-4">
         <div class="card feature-card">
           <div class="card-body">
-            <h5 class="card-title">Personalized Journaling</h5>
-            <p class="card-text">Record your thoughts and reflections in a personalized journal tailored to your
-              emotional journey.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card feature-card">
-          <div class="card-body">
-            <h5 class="card-title">Curated Fitness Routines</h5>
-            <p class="card-text">Discover a variety of exercise routines tailored to fit your busy college lifestyle.
-              Access video tutorials and guides to help you incorporate physical activity into your daily routine,
-              boosting mood and energy levels.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card feature-card">
-          <div class="card-body">
-            <h5 class="card-title">Games to Refresh</h5>
-            <p class="card-text">Explore our collection of interactive games designed to reduce stress, enhance
-              cognitive function, and promote relaxation.
-              Engage in fun activities that contribute to your overall well-being and mental clarity.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card feature-card">
-          <div class="card-body">
-            <h5 class="card-title">Mental Exercise Routines</h5>
-            <p class="card-text">Practice mindfulness meditation, deep breathing exercises, and cognitive-behavioral
-              techniques to manage stress and cultivate resilience.
-              Learn valuable strategies for maintaining positive mental health and emotional balance.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card feature-card">
-          <div class="card-body">
-            <h5 class="card-title">Diet Tracking</h5>
-            <p class="card-text">Monitor your nutritional intake and make informed food choices with our diet tracker
-              feature.
-              Access resources and tips for maintaining a healthy diet that supports your mental and physical
-              well-being.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card feature-card">
-          <div class="card-body">
-            <h5 class="card-title">Community Forum</h5>
-            <p class="card-text">Join our supportive online community where college students can connect, share
-              experiences, and offer encouragement.
-              Engage in discussions on topics related to mental health, academic challenges, and self-care strategies.
+            <h5 class="card-title">
+              <img src="{{ url_for('static', filename='homepage_icons/journal2.jpg') }}" alt="Journal Icon" class="icon">
+              Personalized Journaling
+            </h5>
+            <p class="card-text">
+              Unleash your inner thoughts and emotions in a sanctuary of self-expression. Our personal journaling
+              feature provides a safe space for reflection, growth, and empowerment as you embark on a transformative
+              journey of self-discovery and mindfulness
             </p>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card feature-card">
-          <div class="card-body">
-            <h5 class="card-title">Virtual Pet Companion</h5>
-            <p class="card-text">Adopt a virtual pet companion and experience the joys of caring for a digital friend.
-              Enjoy interactive features such as feeding, grooming, and playing, fostering a sense of companionship and
-              responsibility.</p>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img src="{{ url_for('static', filename='homepage_icons/fitness2.jpg') }}" alt="Journal Icon" class="icon">
+                <h5 class="card-title">Fitness Routines</h5>
+                <p class="card-text">Elevate your well-being with our fitness routines designed to invigorate your mind,
+                  body, and soul. From energizing workouts to soothing stretches, discover personalized exercises
+                  tailored to your lifestyle. Embrace the power of movement and embark on a journey to vitality and
+                  strength</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img src="{{ url_for('static', filename='homepage_icons/games2.jpg') }}" alt="Journal Icon" class="icon">
+                <div class="card-body">
+                  <h5 class="card-title">Games to Refresh</h5>
+                  <p class="card-text">Dive into a world of joy and relaxation with our collection of therapeutic games.
+                    Engage your mind, unwind your spirit, and rediscover the magic of play. From calming puzzles to
+                    uplifting adventures, find solace and rejuvenation in the delightful embrace of our immersive gaming
+                    experience.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card feature-card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <img src="{{ url_for('static', filename='homepage_icons/forum2.jpg') }}" alt="Journal Icon" class="icon">
+                  <h5 class="card-title">Community Forum</h5>
+                  <p class="card-text">Join our vibrant online community where support, understanding, and inspiration
+                    thrive. Engage in meaningful conversations, share experiences, and offer encouragement in a
+                    nurturing space dedicated to mental health and well-being. Together, we foster resilience,
+                    connection, and endless possibilities for growth and healing
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <img src="{{ url_for('static', filename='homepage_icons/pet2.jpg') }}" alt="Journal Icon" class="icon">
+                  <h5 class="card-title">Virtual Pet Companion</h5>
+                  <p class="card-text">Experience the joy of companionship with our virtual pet adoption feature.
+                    Nurture and bond with your digital companion, fostering a sense of responsibility, love, and
+                    happiness. Embrace the warmth of unconditional friendship as you embark on an uplifting journey of
+                    care and connection</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  <!-- Add more cards for other features as needed -->
+    <!-- Add more cards for other features as needed -->
   </div>
   </div>
 

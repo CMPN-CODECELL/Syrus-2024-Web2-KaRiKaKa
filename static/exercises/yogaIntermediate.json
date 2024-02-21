@@ -544,6 +544,188 @@
             "description": "Return to Mountain Pose for centering and balance."
           }
         ]
-    }
+    },
+    {
+        "day": 22,
+        "muscle_group": "Strength & Balance",
+        "exercises": [
+          {
+            "name": "Crow Pose (Bakasana)",
+            "description": "Start in a squat position, place your hands on the mat, and lean forward. Lift your feet off the ground and balance on your hands, bringing your knees towards your upper arms."
+          },
+          {
+            "name": "Warrior III (Virabhadrasana III)",
+            "description": "From Mountain Pose, shift your weight onto one leg, extend the other leg straight back, and hinge at your hips. Reach your arms forward, parallel to the floor."
+          },
+          {
+            "name": "Plank Pose (Phalakasana) Variation",
+            "description": "Start in Plank Pose and lift one leg and the opposite arm off the ground, keeping your body in a straight line. Hold for a few breaths, then switch sides."
+          },
+          {
+            "name": "Side Plank (Vasisthasana)",
+            "description": "From Plank Pose, shift your weight onto one hand, stack your feet, and lift your opposite arm towards the ceiling. Engage your core and hold the position."
+          },
+          {
+            "name": "Locust Pose (Salabhasana)",
+            "description": "Lie on your stomach, lift your chest, arms, and legs off the mat. Keep your gaze forward and engage your back muscles. Hold for a few breaths."
+          }
+        ]
+      },
+      {
+        "day": 23,
+        "muscle_group": "Flexibility & Backbends",
+        "exercises": [
+          {
+            "name": "Camel Pose (Ustrasana)",
+            "description": "Kneel with your knees hip-width apart, thighs perpendicular to the mat. Arch your back, reach your hands towards your heels, and keep your chest lifted."
+          },
+          {
+            "name": "Upward-Facing Dog (Urdhva Mukha Svanasana)",
+            "description": "Lie face down, place your hands next to your chest, and lift your chest off the mat while keeping your legs extended. Press the tops of your feet into the mat."
+          },
+          {
+            "name": "Wheel Pose (Chakrasana)",
+            "description": "Lie on your back, bend your knees, place your hands by your shoulders, and lift your hips towards the ceiling. Straighten your arms and legs as much as possible."
+          },
+          {
+            "name": "Pigeon Pose (Eka Pada Rajakapotasana)",
+            "description": "From Downward-Facing Dog, bring one knee towards your chest and place it between your hands. Extend your other leg straight back, and lower your hips towards the mat."
+          },
+          {
+            "name": "Extended Triangle Pose (Utthita Trikonasana)",
+            "description": "Stand with feet wide apart, reach one hand towards the ground and the other towards the ceiling. Keep your legs straight and engage your core."
+          }
+        ]
+      },
+      {
+        "day": 24,
+        "muscle_group": "Inversions",
+        "exercises": [
+          {
+            "name": "Headstand (Sirsasana)",
+            "description": "Start on your hands and knees, place your forearms on the mat, and interlace your fingers. Lift your hips towards the ceiling and straighten your legs, balancing on your head and forearms."
+          },
+          {
+            "name": "Handstand (Adho Mukha Vrksasana)",
+            "description": "Facing a wall, kick up into a handstand position with your heels resting on the wall. Engage your core and keep your body straight."
+          },
+          {
+            "name": "Forearm Stand (Pincha Mayurasana)",
+            "description": "From Dolphin Pose, walk your feet towards your elbows and lift your legs towards the ceiling. Keep your core engaged and maintain a straight line with your body."
+          },
+          {
+            "name": "Shoulder Stand (Sarvangasana)",
+            "description": "Lie on your back, lift your legs towards the ceiling, and support your lower back with your hands. Keep your body straight and gaze towards your toes."
+          },
+          {
+            "name": "Plow Pose (Halasana)",
+            "description": "From Shoulder Stand, lower your feet towards the floor behind you. Keep your legs straight and maintain the support of your hands on your lower back."
+          }
+        ]
+      },
+      {
+        "day": 25,
+        "muscle_group": "Core Strength",
+        "exercises": [
+          {
+            "name": "Boat Pose (Navasana)",
+            "description": "Sit on the mat, lean back slightly, and lift your legs towards the ceiling. Extend your arms parallel to the floor. Engage your core and balance on your sit bones."
+          },
+          {
+            "name": "Plank Pose (Phalakasana) with Knee-to-Elbow",
+            "description": "From Plank Pose, bring one knee towards the same elbow, engaging your obliques. Return to Plank and switch sides. Continue in a controlled manner."
+          },
+          {
+            "name": "Russian Twists",
+            "description": "Sit on the mat, lean back slightly, and twist your torso to touch the ground on each side. Hold a weight or use bodyweight for added resistance."
+          },
+          {
+            "name": "Side Plank (Vasisthasana) with Leg Lift",
+            "description": "From Side Plank, lift your top leg towards the ceiling. Engage your core for stability. Hold for a few breaths and switch sides."
+          },
+          {
+            "name": "Forearm Plank",
+            "description": "Start on your forearms and toes, keeping your body in a straight line. Engage your core and hold the position for as long as possible."
+          }
+        ]
+      },
+      {
+        "day": 26,
+        "muscle_group": "Hip Opening",
+        "exercises": [
+          {
+            "name": "Pigeon Pose (Eka Pada Rajakapotasana)",
+            "description": "From Downward-Facing Dog, bring one knee towards your chest and place it between your hands. Extend your other leg straight back, and lower your hips towards the mat."
+          },
+          {
+            "name": "Cow Face Pose (Gomukhasana)",
+            "description": "Sit on the mat, stack one knee over the other, and bring the opposite arm behind your back. Reach the other arm overhead and clasp your hands if possible."
+          },
+          {
+            "name": "Frog Pose (Mandukasana)",
+            "description": "Start on your hands and knees, widen your knees to the edges of the mat, and lower your hips towards the ground. Keep your toes pointing outward."
+          },
+          {
+            "name": "Lizard Pose (Utthan Pristhasana)",
+            "description": "From a low lunge position, bring your hands inside the front foot. Lower your forearms to the ground and sink your hips towards the mat, feeling a stretch in the hip flexors."
+          },
+          {
+            "name": "Happy Baby Pose (Ananda Balasana)",
+            "description": "Lie on your back, bend your knees towards your armpits, and hold the outside edges of your feet. Gently rock from side to side."
+          }
+        ]
+      },
+      {
+        "day": 27,
+        "muscle_group": "Twists & Detox",
+        "exercises": [
+          {
+            "name": "Revolved Chair Pose (Parivrtta Utkatasana)",
+            "description": "Stand in Chair Pose, twist your torso to one side, bringing your elbow to the opposite knee. Keep your spine long and chest lifted."
+          },
+          {
+            "name": "Revolved Triangle Pose (Parivrtta Trikonasana)",
+            "description": "Stand with feet wide apart, reach one hand towards the ground and the other towards the ceiling. Twist your torso, bringing the upper hand down to the outside of the lower foot."
+          },
+          {
+            "name": "Seated Twist (Ardha Matsyendrasana)",
+            "description": "Sit on the mat with one leg extended and the other foot crossed over. Twist towards the bent knee, placing the opposite elbow outside the knee. Switch sides."
+          },
+          {
+            "name": "Twisted Lizard Pose (Parivrtta Utthan Pristhasana)",
+            "description": "From Lizard Pose, twist your torso towards the front leg, reaching one hand towards the ceiling. Keep your gaze upwards and hold the stretch."
+          },
+          {
+            "name": "Wind-Relieving Pose (Pavanamuktasana)",
+            "description": "Lie on your back, bring one knee towards your chest, and clasp your hands around it. Hold for a few breaths and switch sides."
+          }
+        ]
+      },
+      {
+        "day": 28,
+        "muscle_group": "Full Body Flow",
+        "exercises": [
+          {
+            "name": "Sun Salutation (Surya Namaskar)",
+            "description": "A sequence of yoga poses performed in a flowing manner. Includes poses like Mountain Pose, Forward Fold, Plank, Downward-Facing Dog, and Cobra."
+          },
+          {
+            "name": "Warrior II (Virabhadrasana II)",
+            "description": "From Downward-Facing Dog, step your right foot forward between your hands. Turn your left foot to face the side, and extend your arms parallel to the floor, palms facing down."
+          },
+          {
+            "name": "Camel Pose (Ustrasana)",
+            "description": "Kneel with your knees hip-width apart, thighs perpendicular to the mat. Arch your back, reach your hands towards your heels, and keep your chest lifted."
+          },
+          {
+            "name": "Twisted Chair Pose (Parivrtta Utkatasana)",
+            "description": "Stand in Chair Pose, twist your torso to one side, bringing your elbow to the opposite knee. Keep your spine long and chest lifted."
+          },
+          {
+            "name": "Mountain Pose (Tadasana)",
+            "description": "Return to Mountain Pose for centering and balance."
+          }
+        ]
+      }
 ]
   

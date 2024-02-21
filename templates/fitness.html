@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../homepage.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
     <title>Document</title>
     <style>
 
@@ -45,41 +45,41 @@
         transition: background-color 0.3s;
       }
       .exercise:nth-child(1) {
-        background-image: url("../fitness_icons/beginner.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/beginner.jpg') }}");
         background-position: center;
       }
 
       .exercise:nth-child(2) {
-        background-image: url("../fitness_icons/intermediate.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/intermediate.jpg') }}");
         background-position: bottom center;
       }
 
       .exercise:nth-child(3) {
-        background-image: url("../fitness_icons/advanced.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/advanced.jpg') }}");
         background-position: bottom center;
       }
       .exercise-horizontal:nth-child(2) .exercise:nth-child(1) {
-        background-image: url("../fitness_icons/yogaBeginner.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/yogaBeginner.jpg') }}");
         background-position: bottom center;
       }
       .exercise-horizontal:nth-child(2) .exercise:nth-child(2) {
-        background-image: url("../fitness_icons/yogaIntermediate.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/yogaIntermediate.jpg') }}");
         background-position: bottom center;
       }
       .exercise-horizontal:nth-child(2) .exercise:nth-child(3) {
-        background-image: url("../fitness_icons/yogaAdvanced.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/yogaAdvanced.jpg') }}");
         background-position: bottom center;
       }
       .exercise:nth-child(7) {
-        background-image: url("../fitness_icons/advanced.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/beginner.jpg') }}");
         background-position: bottom center;
       }
       .exercise:nth-child(8) {
-        background-image: url("../fitness_icons/advanced.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/beginner.jpg') }}");
         background-position: bottom center;
       }
       .exercise:nth-child(9) {
-        background-image: url("../fitness_icons/advanced.jpg");
+        background-image: url("{{ url_for('static', filename='fitness_icons/beginner.jpg') }}");
         background-position: bottom center;
       }
       .exercise-heading {
@@ -120,17 +120,17 @@
       <h1 class="exercise-heading">Yoga</h1>
       <div class="exercise-horizontal">
         <div class="exercise">
-          <a href="exercise.html?selected_exercise=yogaBeginner" class="exercise-container">
+          <a href="{{ url_for('exercise', selected_exercise='yogaBeginner') }}" class="exercise-container">
             <h1>Beginner</h1>
           </a>
         </div>
         <div class="exercise">
-          <a href="exercise.html?selected_exercise=yogaIntermediate" class="exercise-container">
+          <a href="{{ url_for('exercise', selected_exercise='yogaIntermediate') }}" class="exercise-container">
             <h1>Intermediate</h1>
           </a>
         </div>
         <div class="exercise">
-          <a href="exercise.html?selected_exercise=yogaAdvanced" class="exercise-container">
+          <a href="{{ url_for('exercise', selected_exercise='yogaAdvanced') }}" class="exercise-container">
             <h1>Advanced</h1>
           </a>
         </div>
@@ -138,17 +138,17 @@
       <h1 class="exercise-heading">Full Body Workout</h1>
       <div class="exercise-horizontal">
         <div class="exercise">
-          <a href="exercise.html?selected_exercise=beginner" class="exercise-container">
+          <a href="{{ url_for('exercise', selected_exercise='beginner') }}" class="exercise-container">
             <h1>Beginner</h1>
           </a>
         </div>
         <div class="exercise">
-          <a href="exercise.html?selected_exercise=intermediate" class="exercise-container">
+          <a href="{{ url_for('exercise', selected_exercise='intermediate') }}" class="exercise-container">
             <h1>Intermediate</h1>
           </a>
         </div>
         <div class="exercise">
-          <a href="exercise.html?selected_exercise=advanced" class="exercise-container">
+          <a href="{{ url_for('exercise', selected_exercise='advanced') }}" class="exercise-container">
             <h1>Advanced</h1>
           </a>
         </div>

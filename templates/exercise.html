@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../homepage.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
     <title>Exercise Routine</title>
     <style>
         body {
@@ -102,7 +102,7 @@
     <div id="routine-container" class="day-container"></div>
 
     <div id="right-section">
-        <img src="../icons/arrow-square-left_6407326.png" class="back-button onclick="toggleExerciseList(null)">
+        <img src="{{ url_for('static', filename='icons/arrow-square-left_6407326.png') }}" class="back-button onclick="toggleExerciseList(null)">
         <!-- <button class="back-button" onclick="toggleExerciseList(null)">Back</button> -->
         <h2 class="right-section-heading"></h2>
         <ul id="exercise-list" class="exercise-list"></ul>
@@ -114,7 +114,7 @@
 
             async function fetchExerciseRoutine() {
             try {
-                const response = await fetch(`../exercises/${buttonClicked}.json`); // Replace with the actual path to your JSON file
+                const response = await fetch(`/static/exercises/${buttonClicked}.json`); // Replace with the actual path to your JSON file
                 const data = await response.json();
 
                 const routineContainer = document.getElementById('routine-container');
