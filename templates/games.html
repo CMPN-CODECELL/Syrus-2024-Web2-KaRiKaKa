@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
     <title>HTML Games Showcase</title>
     <style>
         body {
@@ -13,10 +14,10 @@
             padding: 20px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-around;
         }
 
-        .game-container {
+        .game-card {
             margin: 20px;
             padding: 20px;
             border-radius: 10px;
@@ -25,72 +26,259 @@
             text-align: center;
             transition: transform 0.3s ease;
             cursor: pointer;
-            width: 200px;
-            height: 250px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        .game-container:hover {
+        .game-card:hover {
             transform: translateY(-10px);
         }
 
-        .game-container img {
-            width: 80%;
-            height: auto;
+        .game-card img {
+            max-width: 100%;
+            max-height: 100%;
             border-radius: 10px;
         }
 
-        .game-container h3 {
-            margin-top: 10px;
-            font-size: 18px;
+        .game-card h3 {
+            font-size: 20px;
+            margin: 0;
         }
     </style>
 </head>
 
 <body>
-    <div class="game-container" onclick="window.location.href='/game2?selected_game=https://cdn.htmlgames.com/embed.js?game=DailyNonograms&bgcolor=white'">
-        <img src="https://cdn.htmlgames.com/img/DailyNonograms.jpg" alt="Daily Nonograms">
+
+    <nav class="main">
+        <ul class="nav-links">
+            <li><a href="{{ url_for('fitness')}}">Fitness</a></li>
+            <li><a href="{{ url_for('journal')}}">Journal</a></li>
+            <li><a href="{{ url_for('games')}}">Games</a></li>
+            <li><a href="#">Forum</a></li>
+            <div class="login-signup">
+                <button class="login-btn"><a href="{{ url_for('loginPage')}}">Login</a></button>
+                <button class="signup-btn"><a href="{{ url_for('registerPage')}}">Sign Up</a></button>
+
+        </ul>
+    </nav>
+
+    <div class="game-card" id="DailyNonograms" onclick="embedGame('DailyNonograms')">
         <h3>Daily Nonograms</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=DailyNonograms&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.location.href='/game2?selected_game=https://cdn.htmlgames.com/embed.js?game=1010Classic&bgcolor=white'">
-        <img src="https://cdn.htmlgames.com/img/1010Classic.jpg" alt="1010 Classic">
+
+    <!-- Add more game cards here -->
+    <div class="game-card" id="1010Classic" onclick="embedGame('1010Classic')">
         <h3>1010 Classic</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=1010Classic&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=DailyKakurasu&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/DailyKakurasu.jpg" alt="Daily Kakurasu">
+
+    <div class="game-card" id="DailyKakurasu" onclick="embedGame('DailyKakurasu')">
         <h3>Daily Kakurasu</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=DailyKakurasu&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=Hashiwokakero&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/Hashiwokakero.jpg" alt="Hashiwokakero">
+
+    <div class="game-card" id="Hashiwokakero" onclick="embedGame('Hashiwokakero')">
         <h3>Hashiwokakero</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=Hashiwokakero&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=DailyShikaku&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/DailyShikaku.jpg" alt="Daily Shikaku">
+
+    <div class="game-card" id="DailyShikaku" onclick="embedGame('DailyShikaku')">
         <h3>Daily Shikaku</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=DailyShikaku&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=JigsawCities1&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/JigsawCities1.jpg" alt="Jigsaw Cities 1">
-        <h3>Jigsaw Cities 1</h3>
+
+    <div class="game-card" id="JigsawCities1" onclick="embedGame('JigsawCities1')">
+        <h3>Jigsaw Cities1</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=JigsawCities1&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=TikiTotemsQuartet&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/TikiTotemsQuartet.jpg" alt="Tiki Totems Quartet">
-        <h3>Tiki Totems Quartet</h3>
+
+    <div class="game-card" id="TikiTotemsQuartet" onclick="embedGame('TikiTotemsQuartet')">
+        <h3>TikiTotems Quartet</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=TikiTotemsQuartets&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=LinesAndBlocks2&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/LinesAndBlocks2.jpg" alt="Lines and Blocks 2">
-        <h3>Lines and Blocks 2</h3>
+
+    <div class="game-card" id="LinesAndBlocks2" onclick="embedGame('LinesAndBlocks2')">
+        <h3>Lines And Blocks2</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=LinesAndBlocks2&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=ColorPuzzle&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/ColorPuzzle.jpg" alt="Color Puzzle">
+
+    <div class="game-card" id="ColorPuzzle" onclick="embedGame('ColorPuzzle')">
         <h3>Color Puzzle</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=ColorPuzzle&amp;bgcolor=white"></script>
+        </div>
     </div>
-    <div class="game-container" onclick="window.open('https://cdn.htmlgames.com/embed.js?game=WeaveLines&bgcolor=white', '_blank')">
-        <img src="https://cdn.htmlgames.com/img/WeaveLines.jpg" alt="Weave Lines">
+
+    <div class="game-card" id="WeaveLines" onclick="embedGame('WeaveLiness')">
         <h3>Weave Lines</h3>
+        <div>
+            <script src="https://cdn.htmlgames.com/embed.js?game=WeaveLines&amp;bgcolor=white"></script>
+        </div>
     </div>
+
+
+    <script>
+        function adjustCardSize(DailyNonograms) {
+            var card = document.getElementById(DailyNonograms);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(DailyNonograms) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + DailyNonograms + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(Classic) {
+            var card = document.getElementById(Classic);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(Classic) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + Classic + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(DailyKakurasu) {
+            var card = document.getElementById(DailyKakurasu);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(DDailyKakurasu) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + DailyKakurasu + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(Hashiwokakero) {
+            var card = document.getElementById(Hashiwokakero);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(DHashiwokakero) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + Hashiwokakero + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(DailyShikaku) {
+            var card = document.getElementById(DailyShikaku);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(DailyShikaku) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + DailyShikaku + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(JigsawCities1s) {
+            var card = document.getElementById(JigsawCities1);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(JigsawCities1) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + JigsawCities1 + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(TikiTotemsQuartet) {
+            var card = document.getElementById(TikiTotemsQuartet);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(DTikiTotemsQuartet) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + TikiTotemsQuartet + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(LinesAndBlocks2) {
+            var card = document.getElementById(LinesAndBlocks2);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(LinesAndBlocks2) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + LinesAndBlocks2 + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(ColorPuzzle) {
+            var card = document.getElementById(ColorPuzzle);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(ColorPuzzle) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + ColorPuzzle + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        function adjustCardSize(WeaveLines) {
+            var card = document.getElementById(WeaveLines);
+            var image = card.querySelector('img');
+            card.style.width = image.width + 'px';
+            card.style.height = image.height + 'px';
+        }
+
+        function embedGame(WeaveLines) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.htmlgames.com/embed.js?game=' + WeaveLines + '&bgcolor=white';
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+    </script>
+
 </body>
 
 </html>

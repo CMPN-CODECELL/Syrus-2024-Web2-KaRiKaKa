@@ -1,0 +1,412 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: #E1F4F0;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0.5px 10px;
+  font-size: 18px;
+  
+}
+
+.logo {
+  margin-right: auto; /* Pushes the logo to the extreme left */
+}
+
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:flex-end ;
+  align-items: center; /* Align items vertically */
+}
+
+.nav-links li {
+  margin-left: 10px; /* Add spacing between navigation links */
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 50px 50px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 100px; /* Adjust width of logo image */
+  height: 100px; /* Maintain aspect ratio */
+}
+
+.main {
+  display: flex;
+  background-color: #9EC6BD;
+  color: black;
+  padding: 20px 0; /* Add padding to create space around the navbar */
+  text-align: center;
+  justify-content: flex-start; /* Align navbar items at the center */
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 10px; /* Add margin around each navbar item */
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  font-size: 110%;
+  margin-bottom: 10px;
+}
+
+.nav-links li img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.login-signup {
+  margin-left: auto; /* Pushes the buttons to the extreme right */
+}
+
+.login-btn,
+.signup-btn {
+  background-color: #36594D;
+  border: 2px solid #36594D; /* Add border */
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px; /* Add border radius for rounded corners */
+  color: black; /* Set text color */
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #E1F4F0; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}
+
+.intro {
+  background-image: url('homepage.jpg'); /* Replace 'homepage.jpg' with the actual path to your image */
+  background-size: cover; /* Ensure the background image covers the entire section */
+  background-position: center; /* Center the background image */
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background color */
+  text-align: center;
+  max-width: 1250px; /* Adjust as needed */
+  margin: 0 auto; /* Center horizontally */
+  padding: 162px 20px;
+  color: black; /* Text color */
+}
+
+.intro p {
+  font-size: 18px; /* Adjust as needed */
+  line-height: 1.6; /* Adjust line height for readability */
+  color: black; /* Adjust text color */
+}
+
+/* Animation */
+.intro p {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.mood {
+  background-color: whitesmoke; /* Background color for the "How are You Feeling" section */
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.mood img {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add spacing between images */
+  transition: transform 0.3s ease; /* Apply transition effect for smooth scaling */
+}
+
+.mood img:hover {
+  transform: scale(1.2); /* Enlarge the image on hover */
+}
+
+.container {
+  padding: 20px;
+  background-color: #fff; /* Set the background color for the exploring features section container */
+}
+
+/* Styling for the cards */
+.feature-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+ 
+}
+
+.feature-card .card-body {
+  text-align: left; /* Align text to the left */
+  display: flex;
+  grid-template-columns: 1fr auto; /* Image on left, content on right */
+  align-items: center; /* Aligns image and content vertically */
+  
+}
+
+.feature-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  
+}
+
+.feature-card .card-text {
+  color: #666;
+  font-size: 1.2rem;
+
+}
+
+.icon {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+.card-content {
+  flex: 1; /* Take remaining space */
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .feature-card {
+      margin-bottom: 20px;
+  }
+}
+
+/*Footer*/
+
+.footer-container {
+  background-color: #666; /* Set the background color for the footer container */
+  padding: 0.5rem 0; /* Adjust padding to make the footer container smaller */
+}
+
+
+.footer .grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Equal width for each column */
+}
+
+.grid-4-col {
+  padding: 0 1.7rem;
+}
+
+.footer .title-sm {
+  color: black;
+  margin-bottom: 0.9rem;
+}
+
+.footer .text {
+  color: black;
+}
+
+.footer-links {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  color: black;
+  font-size: 1.10rem;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  transition: 0.3s;
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+  color: var(--main-color);
+}
+
+.footer-input-wrap {
+  display: grid;
+  grid-template-columns: auto 50px;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 1.2rem;
+}
+
+.footer-input {
+  background: white;
+  color: black;
+  outline: none;
+  border: none;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.input-arrow {
+  color: black;
+  background-color: #36594D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  transition: 0.3s;
+}
+
+.input-arrow:hover {
+  background-color: #9EC6BD;
+}
+
+.focus {
+  background: #fff;
+}
+
+.bottom-footer {
+  margin-top: 2rem; /* Adjust spacing */
+  padding: 0 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright .text {
+  color: #666;
+  font-size: 1rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.copyright .text span {
+  color: black;
+  cursor: pointer;
+}
+
+.followus-wrap {
+  display: flex;
+}
+
+.followus {
+  display: flex;
+  align-items: center;
+}
+
+.followus h3 {
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.followus .footer-line {
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  margin: 0 1.2rem;
+  display: inline-block;
+}
+
+.social-media a {
+  color: black;
+  font-size: 1.3rem;
+  margin-right: 0.4rem;
+  transition: 0.3s;
+}
+
+.social-media a:hover {
+  color: black;
+}
+
+.back-btn-wrap {
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 45px;
+  width: 45px;
+  background-color: #36594D;
+  border-radius: 50%;
+  color: black;
+  font-size: 1rem;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  position: relative; /* Change position to fixed */
+  bottom: 40px; /* Adjust bottom position */
+  right: 0.5px; /* Adjust right position */
+  left: 130px;
+  z-index: 2;
+}
+
+.back-btn:hover {
+  background-color: #E1F4F0;
+}
+
+.back-btn-wrap:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #666;
+  z-index: 1;
+  top: -20%;
+  left: 95%;
+  transform: translate(-50%, -50%) scale(0.7);
+  border-radius: 50%;
+  opacity: 0.08;
+  animation: scale 1.2s ease-out infinite 1s;
+}
+
+@keyframes scale {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.15;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1.6);
+    opacity: 0;
+  }
+}
