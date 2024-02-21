@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__, template_folder='templates', static_url_path='/static')
 
-genai.configure(api_key="AIzaSyD7ZDyv5giJ-vw26Im0fvAD6to_b2qCZJA")
+genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 model = genai.GenerativeModel("gemini-pro")
 
 conversation_history_file = "conversation_history.json"
@@ -53,10 +53,6 @@ def journal():
 def games():
     return render_template('games.html')
 
-@app.route('/game2')
-def game2():
-    selected_game = request.args.get('selected_game')
-    return render_template('game2.html', selected_game=selected_game)
 
 @app.route('/fitness')
 def fitness():
@@ -71,6 +67,7 @@ def exercise():
 def process_input():
     data = request.get_json()
     user_input = data['inputText']
+    print("working")
 
     # Load conversation history
     conversation_history = load_conversation_history()

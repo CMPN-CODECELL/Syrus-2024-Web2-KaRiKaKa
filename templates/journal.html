@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Diary</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/journal.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+
     <style>
         /* Additional CSS styles */
         .diary-header {
@@ -78,6 +80,24 @@
         }
     </style>
 </head>
+<nav class="main">
+    <div class="logo">
+      <!-- <img src="{{ url_for('static', filename='homepage_icons/logo.png') }}" alt="Logo"> -->
+      <p class="Me">MoodyMe</p>
+    </div>
+    <ul class="nav-links">
+      <li><a href="{{ url_for('fitness')}}">Fitness</a></li>
+      <li><a href="{{ url_for('journal')}}">Journal</a></li>
+      <li><a href="{{ url_for('games')}}">Games</a></li>
+      <li><a href="#">Forum</a></li>
+      <div class="login-signup">
+        <button class="login-btn" onclick="redirectToLoginPage()">Login</button>
+        <button class="signup-btn" onclick="redirectToRegisterPage()">Sign Up</button>
+
+    </ul>
+
+
+  </nav>
 <body onload="loadNotes()">
     <!-- Diary editor -->
     <div class="diary-container">

@@ -18,6 +18,7 @@
         }
 
         form {
+            position:relative;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -65,6 +66,17 @@
         .redirect{
             text-align: left;
         }
+        .back-button {
+            position:absolute;
+            top:0;
+            left:0;
+            width: 20px;
+            height:20px;
+        }
+
+        .back-button:hover {
+           cursor:pointer;
+        }
     </style>
 </head>
 
@@ -72,6 +84,7 @@
 
     <form name="login_form" id="login_form" method="post" action="#" enctype="multipart/form-data">
         <div class="col-sm-4">
+            <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='icons/arrow-square-left_6407326.png') }}" class="back-button"></a>
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="text" name="login_email" id="login_email" class="form-control" placeholder="Enter your email">

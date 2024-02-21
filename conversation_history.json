@@ -1,0 +1,58 @@
+[
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I'm doing well, thank you for asking. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "I am facing a lot of mental stress",
+        "text": "```html\n<p>I am sorry to hear that you are facing a lot of mental stress. I am here to listen to you and cheer you up if you need me to. What is causing you the most stress right now?</p>\n```"
+    },
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "I am feeling very stressed",
+        "text": "```html\n<p>I am sorry to hear that you are feeling stressed. I am here to listen to you and cheer you up if you need me to. What is causing you stress right now?</p>\n```"
+    },
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "i am feeling very stressed",
+        "text": "```html\n<p>I am sorry to hear that you are feeling stressed. I am here to listen to you and cheer you up if you need me to. What is causing you stress right now?</p>\n```"
+    },
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "I am feelingvery stressed",
+        "text": "```html\n<p>I am sorry to hear that you are feeling stressed. I am here to listen to you and cheer you up if you need me to. What is causing you stress right now?</p>\n```"
+    },
+    {
+        "user": "How are you?",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "how r u",
+        "text": "```html\n<p>I am doing very well, thank you for asking. I am always happy to listen to you and cheer you up if you are feeling down. How are you feeling today?</p>\n```"
+    },
+    {
+        "user": "i am not feling good..",
+        "text": "```html\n<p>I am sorry to hear that you are not feeling well. I am here to listen to you and cheer you up if you need me to. What is causing you to feel down today?</p>\n```"
+    }
+]
